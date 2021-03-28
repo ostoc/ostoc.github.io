@@ -10,6 +10,7 @@ projectList.map(project => {
     const linkElement = document.createElement('a')
     const descriptionElement = document.createElement('div')
     linkElement.href = project.url
+    linkElement.target = "_blank"
     linkElement.text = project.title
     descriptionElement.innerHTML = project.description
     descriptionElement.className = 'description'

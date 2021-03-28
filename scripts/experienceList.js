@@ -1,7 +1,7 @@
 export default [
     {
         title: "Now | Prouduct Manager",
-        description: "Manage Voice Assistant",
+        description: "Just PM Job",
     },
     {
         title: "2019-04 → 2020-12 | Design Engineer",

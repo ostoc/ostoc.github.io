@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 :root {
-    --text-color: #222222;
+    --text-color: #000;
     --second-text-color: #555;
     --primary-color: rgb(212, 200, 31);
     --tag-background-color: #ddd;
@@ -113,7 +113,7 @@ main {
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-column-gap: 2rem;
-    min-height: 72vh;
+    min-height: 88vh;
 }
 
 main img {
@@ -168,7 +168,7 @@ footer {
     display: grid;
     grid-template-columns: 2fr 3fr;
     padding: 4rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     grid-column-gap: 2rem;
     background: var(--primary-color);
     font-family: var(--font-family-sans);
