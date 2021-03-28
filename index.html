@@ -11,10 +11,9 @@
 </head>
 
 <body>
-
     <main>
         <div>
-            <div id="top" class="banner" onclick="backTop()"></div>
+            <div id="top" class="banner"></div>
             <div class="hero">
                 <h1>Share articles about design system, design thinking and VUI, also
                     thoughs and learning from product development.</h1>
@@ -24,21 +23,15 @@
         </div>
         <article>
             <tab>
+
                 <div class="item active" id="article-tab" onclick="switchTab('articles')">Articles</div>
-                <div class="item" id="experience-tab" onclick="switchTab('experience')">Experience</div>
+                <div class="item " id="experience-tab" onclick="switchTab('experience')">Experience</div>
             </tab>
             <div id="article-list" class="article-list"></div>
             <div id="experience-list" class="article-list" style="display: none;"></div>
         </article>
     </main>
-
-
-
-
-
     <footer id="footer"></footer>
-
-
 </body>
 
 </html>
@@ -48,14 +41,6 @@
     const articleTabElement = document.getElementById('article-tab')
     const experienceListElement = document.getElementById('experience-list')
     const articleListElement = document.getElementById('article-list')
-    document.addEventListener('scroll', () => {
-        let positionY = window.scrollY
-        if (positionY > 80) {
-            topBarElement.innerText = "▲"
-        } else {
-            topBarElement.innerText = ""
-        }
-    })
 
     function switchTab(value) {
         if (value === 'experience') {
@@ -69,11 +54,6 @@
             articleTabElement.classList.add('active')
             experienceTabElement.classList.remove('active')
         }
-    }
-
-
-    function backTop() {
-        window.scrollTo(0, 0)
     }
 </script>
 

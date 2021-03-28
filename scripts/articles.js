@@ -3,14 +3,13 @@
 import articlesList from "../data/articlesList.js";
 
 function urlString(url) {
-    return `/articles/${url}.html`
+    return `/articles/${url}`
 }
 
 const listElement = document.createElement('ul')
 
 articlesList.map(article => {
     const itemElement = document.createElement('li')
-
     const linkElement = document.createElement('a')
     linkElement.href = urlString(article.url)
     linkElement.text = article.title

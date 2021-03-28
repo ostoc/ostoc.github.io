@@ -1,14 +1,14 @@
 export default [
     {
-        title: "2021-01 -> Now | Prouduct Manager",
+        title: "Now | Prouduct Manager",
         description: "Manage Voice Assistant",
     },
     {
-        title: "2019-04 -> 2020-12 | Design Engineer",
+        title: "2019-04 → 2020-12 | Design Engineer",
         description: "Manage Design System, build voice assitant app",
     },
     {
-        title: "2018-01 -> 2019-03 | Proudct Designer",
+        title: "2018-01 → 2019-03 | Proudct Designer",
         description: `
         <p>Contribute to overall strategy and decision - making about product direction.</p>
         <p>Work cross - functionally with engineering and other stakeholders to arrive at the best
@@ -17,7 +17,7 @@ export default [
         Work with Engineering to deliver a high - quality implementation. </p>`,
     },
     {
-        title: "2016-09 -> 2018-12 | Frontend Developer",
+        title: "2016-09 → 2018-12 | Frontend Developer",
         description: `
         <p>Lead designer and developer for a new project called AM Part Identifier.<p>
         <p>Introduced Vue.js to the company and helped the main product team decided switch to Vue.js.</p>

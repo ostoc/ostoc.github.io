@@ -116,7 +116,6 @@ tab {
 
 .item {
     line-height: 3rem;
-    font-family: var(--font-family-serif);
     text-align: center;
 }
 
@@ -132,6 +131,7 @@ tab {
 }
 
 footer {
+    font-size: var(--font-size-sm);
     display: grid;
     grid-template-columns: 2fr 3fr;
     padding: 4rem;
@@ -141,6 +141,10 @@ footer {
 
 .copyright {
     min-height: 4rem;
+}
+
+.copyright:hover {
+    cursor: pointer;
 }
 
 .links {

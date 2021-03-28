@@ -1,35 +1,27 @@
 
 const contacts = [
     {
-        "title": "Email",
-        "url": "mailto:pujunyu@gmail.com"
+        "title": "GitHub↗",
+        "url": "https://github.com/ostoc"
     },
     {
-        "title": "GitHub",
-        "url": "#"
+        "title": "Twitter↗",
+        "url": "https://twitter.com/jpu__"
     },
     {
-        "title": "Twitter",
-        "url": "#"
-    },
-    {
-        "title": "LinkedIn",
-        "url": "#"
+        "title": "LinkedIn↗",
+        "url": "http://linkedin.com/in/pujunyu/"
     }
 ]
 
 const pages = [
     {
-        "title": "Archive",
+        "title": "Articles",
         "url": "/articles/"
     },
     {
         "title": "Projects",
         "url": "#"
-    },
-    {
-        "title": "Tools",
-        "url": "/tools.html"
     },
     {
         "title": "About",
@@ -49,17 +41,21 @@ function createLinkElement(links) {
     return linksColumnElement
 }
 
-const copyrightElement = document.createElement('a')
+const copyrightElement = document.createElement('div')
 copyrightElement.className = "copyright"
-copyrightElement.text = "© 2021"
-copyrightElement.href = "/"
+copyrightElement.innerText = "▲ © 2021"
+
+copyrightElement.onclick = () => {
+    window.scrollTo(0, 0)
+}
 const linksElement = document.createElement('div')
 linksElement.className = "links"
 const linksContactElement = document.createElement('div')
 const linksPageElement = document.createElement('div')
 
-linksElement.appendChild(createLinkElement(contacts))
 linksElement.appendChild(createLinkElement(pages))
+linksElement.appendChild(createLinkElement(contacts))
+
 
 
 document.getElementById('footer').appendChild(copyrightElement)
