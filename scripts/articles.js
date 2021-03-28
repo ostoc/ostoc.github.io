@@ -3,7 +3,7 @@
 import articlesList from "../data/articlesList.js";
 
 function urlString(url) {
-    return `articles/${url}.html`
+    return `/articles/${url}.html`
 }
 
 const listElement = document.createElement('ul')
