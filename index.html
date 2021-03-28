@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junyu</title>
+    <link rel="stylesheet" type="text/css" href="scripts/style.css" media="screen" />
+
+</head>
+
+<body>
+
+    <main>
+        <div>
+            <div id="top" class="banner" onclick="backTop()"></div>
+            <div class="hero">
+                <h1>Share articles about design system, design thinking and VUI, also
+                    thoughs and learning from product development.</h1>
+                <h2>Hello, this is Junyu. I'm a product manager <span class="strike">designer and engineer</span>
+                    who lives and works in Berlin.</h2>
+            </div>
+        </div>
+        <article>
+            <tab>
+                <div class="item active" id="article-tab" onclick="switchTab('articles')">Articles</div>
+                <div class="item" id="experience-tab" onclick="switchTab('experience')">Experience</div>
+            </tab>
+            <div id="article-list" class="article-list"></div>
+            <div id="experience-list" class="article-list" style="display: none;"></div>
+        </article>
+    </main>
+
+
+
+
+
+    <footer id="footer">
+        <div class="copyright">© 2021</div>
+        <div class="links">
+            <div class="links-column">
+                <a>Email</a>
+                <a>LinkedIn</a>
+                <a>Twitter</a>
+            </div>
+            <div class="links-column">
+                <a>Reading</a>
+                <a>Tools</a>
+                <a>About</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
+<script>
+    const topBarElement = document.getElementById('top')
+    const experienceTabElement = document.getElementById('experience-tab')
+    const articleTabElement = document.getElementById('article-tab')
+    const experienceListElement = document.getElementById('experience-list')
+    const articleListElement = document.getElementById('article-list')
+    document.addEventListener('scroll', () => {
+        let positionY = window.scrollY
+        if (positionY > 80) {
+            topBarElement.innerText = "▲"
+        } else {
+            topBarElement.innerText = ""
+        }
+    })
+
+    function switchTab(value) {
+        if (value === 'experience') {
+            experienceListElement.style.display = "flex"
+            articleListElement.style.display = "none"
+            articleTabElement.classList.remove('active')
+            experienceTabElement.classList.add('active')
+        } else {
+            experienceListElement.style.display = "none"
+            articleListElement.style.display = "flex"
+            articleTabElement.classList.add('active')
+            experienceTabElement.classList.remove('active')
+        }
+    }
+
+
+    function backTop() {
+        window.scrollTo(0, 0)
+    }
+</script>
+
+<script type="module" src="scripts/articles.js"></script>
+<script type="module" src="scripts/experience.js"></script>
+<!-- <script type="module" src="scripts/email.js"></script> -->
