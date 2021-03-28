@@ -1,14 +1,14 @@
 // 'use strict';
 
-import articlesList from "../data/articlesList.js";
+import storyList from "./storyList.js";
 
 function urlString(url) {
-    return `/articles/${url}.html`
+    return `/stories/${url}.html`
 }
 
 const listElement = document.createElement('ul')
 
-articlesList.map(article => {
+storyList.map(article => {
     const itemElement = document.createElement('li')
     const linkElement = document.createElement('a')
     linkElement.href = urlString(article.url)
@@ -26,4 +26,4 @@ articlesList.map(article => {
 
 })
 
-document.getElementById('article-list').appendChild(listElement)
+document.getElementById('story-list').appendChild(listElement)

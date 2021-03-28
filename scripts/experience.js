@@ -1,6 +1,6 @@
 // 'use strict';
 
-import experienceList from "../data/experienceList.js";
+import experienceList from "./experienceList.js";
 
 
 const listElement = document.createElement('ul')

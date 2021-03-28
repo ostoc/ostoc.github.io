@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build your Sketch Library for Fast Prototyping</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/styles/page.css" media="screen" />
+</head>
+
+<body>
+    <nav id="nav" data="article"></nav>
+    <article>
+        <h1>Build your Sketch Library for Fast Prototyping</h1>
+        <p>Draw your design on paper, take pictures and import to a prototyping tool, add a link to each page, show it
+            to the stakeholder and they will give you this face 🧐.
+        </p>
+        <p>Paper prototyping can be rough, abstract, and hard to understand. So… you to want build high-fidelity
+            prototypes? Here are some problems:</p>
+        <ul>
+            <li>You need to spend a lot of time on design decisions, not on solving the real problems.</li>
+            <li>Product requirements change faster than your prototype; what you designed would be trashed before it
+                gets presented to product owners.</li>
+        </ul>
+        <p>
+            How about trying to build a faster high-fidelity prototype next time, with powerful Sketch Libraries?
+        </p>
+        <h2>A quick look of Sketch Libraries</h2>
+        <h3>What is Sketch Libraries?</h3>
+
+        <p>Sketch Libraries are just ordinary Sketch documents that contain Symbols. However, Libraries are
+            cross-document symbols, which means you can use these symbols across all your Sketch documents.</p>
+
+        <h3>Why do Sketch Libraries matter?</h3>
+
+        <ul>
+            <li>In order to keep your design consistent in different design files… especially when you start
+                collaborating with other designers. You need a single source of truth to relay on: what you changed in
+                the Library will also change in other files.</li>
+            <li>You probably used other online wireframe tools to do rapid prototyping. If you think about it, those
+                tools are just libraries which contain all the components you need to build a prototype quickly. So why
+                not just build one by yourself?</li>
+        </ul>
+
+        <h2>Build your first Sketch Library</h2>
+
+        <p>When you start building the sketch library, it&#8217;s more like making (not playing) Lego. It&#8217;s not
+            the fun part, but it&#8217;s a very important step.</p>
+
+        <p>Just like Lego, one library can use another library to build a more complex one.</p>
+
+        <p>Sketch has a document about how to build the library, and I would recommend starting there. Here are some
+            tips for building the Library.</p>
+
+        <h3>Mono Library or Multi-Library</h3>
+
+        <p><strong>Mono library</strong> includes all the components in a single file. The benefit of mono libraries are
+            that it&#8217;s easy to mange, as only one file is needed to be imported into Sketch Library. However when
+            your library starts growing, it can also be hard to maintain. Another reason to avoid mono libraries is that
+            your symbols selection in Sketch will be huge (although you can of course use plugins to insert symbols).
+        </p>
+
+        <p><strong>Multi-library</strong> makes each file smaller, and it is easier to maintain in the future. There are
+            also drawbacks: If one library uses another library, both libraries need to be updated. In Kotti Design
+            System<sup>1</sup>, we found that the multi-library architecture is more suitable for us.</p>
+
+        <h3>Structured Nest Library</h3>
+
+        <img src="/images/sl-01.png" class="wide">
+
+        <p>Sketch allows nested symbols, so we can use this feature to build a nested library. Kotti Color is in the
+            bottom of the hierarchy, and Kotti Icon and Kotti Typography rely on it. It makes changing the color of
+            icons or text easier. Other components depending on Kotti Icon and Kotti Typography makes quickly changing
+            the icon and font type super fast.</p>
+
+        <img src="/images/sl-02.gif" class="wide">
+        <h2>The End…</h2>
+
+        <p>We ed our first library when Sketch launched this feature. We spent a few days to convert all the symbols
+            into libraries. Yes it&#8217;s a tedious process, but the benefits are huge:</p>
+
+        <ul>
+            <li>For small features (2–3 views) we can build the prototype in 2 hours and it can be used for collecting
+                customer feedback.</li>
+            <li>For projects we&#8217;re still using paper prototype in the early stage for fast design iteration. Then
+                we switch to Sketch - Full Speed On.</li>
+        </ul>
+
+        <footnote>
+            <ol>
+                <li>Kotti Design System
+                    <a href="https://github.com/3yourmind/kotti">
+                        https://github.com/3yourmind/kotti
+                    </a>
+                </li>
+                <li>Original posted on Medium
+                    https://medium.com/3yourmind/build-your-sketch-library-for-fast-prototyping-e6cf80109e80</li>
+            </ol>
+        </footnote>
+
+    </article>
+    <footer id="footer"></footer>
+</body>
+
+</html>
+
+<script type="module" src="/scripts/footer.js"></script>
+<script type="module" src="/scripts/header.js"></script>

@@ -1,24 +1,23 @@
 body {
     margin: 0 auto;
     font-size: var(--font-size-md);
+    line-height: 1.5;
 }
 
-h1,
-h2,
-h3 {
-    font-weight: var(--font-weight-regular);
-}
 
 h1 {
-    font-size: 2rem;
+    font-weight: var(--font-weight-regular);
+    font-size: 2.4rem;
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
     font-family: var(--font-family-sans);
 }
 
 h3 {
+    font-family: var(--font-family-sans);
     font-size: 1.2rem;
 }
 
@@ -28,41 +27,22 @@ blockquote {
     line-height: 1.2;
     padding-left: 1.2rem;
     margin: 0;
-    font-family: var(--font-family-serif);
+
 }
 
 footnote {
     margin-top: 4rem;
     display: flex;
+    padding: 0 1rem;
     word-break: break-all;
     font-size: var(--font-size-sm);
+    font-family: var(--font-family-sans);
     background: var(--tag-background-color);
 }
 
-nav {
-    color: #fff;
-    padding: 1rem 4rem;
-    display: flex;
-    align-items: center;
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
-    background: #333;
-    border-bottom: 1px solid var(--border-color);
-}
-
-nav div {
-
-    margin-right: 1rem;
-}
-
-nav div:first-child {
-    padding: 0 2rem;
-    background: #fff;
-}
-
-nav div:hover {
-    cursor: pointer;
-    opacity: 50%;
+footnote ul,
+footnote ol {
+    padding: 0 1rem;
 }
 
 article {
@@ -70,20 +50,15 @@ article {
     padding: 1rem;
     min-height: 70vh;
     max-width: 40rem;
-}
-
-p {
-
     font-family: var(--font-family-serif);
 }
 
-b {
-    font-family: var(--font-family-sans);
+article ul {
+    padding-left: 1.5rem;
 }
 
 
-
-.image-text-aside {
+article .image-text-aside {
     display: grid;
     grid-template-columns: fit-content(20rem) 1fr;
     gap: 2rem;
@@ -92,29 +67,39 @@ b {
     margin-left: -10rem;
 }
 
-
-img.aside {
+article img {
+    margin: 1rem 0;
     width: 100%;
 }
 
-img.full-width {
+article img.aside {
+    width: 100%;
+}
+
+article img.wide {
     width: 60rem;
     margin-left: -10rem;
+}
+
+article sup {
+    color: var(--primary-color);
+}
+
+article a {
+    border-bottom: 2px solid var(--primary-color);
 }
 
 @media (max-width: 960px) {
 
     .image-text-aside,
-    img.full-width {
+    img.wide {
         width: 100%;
-        margin: 0 auto;
+        margin-left: 0;
     }
 
     .image-text-aside {
         grid-template-columns: 1fr;
     }
 
-    nav {
-        padding: 1rem;
-    }
+
 }

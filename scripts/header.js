@@ -5,13 +5,13 @@ const articleElement = document.createElement('div')
 
 homeElement.innerHTML = '__'
 dividerElement.innerHTML = '/'
-articleElement.innerHTML = 'Articles'
+articleElement.innerHTML = 'Stories'
 
 homeElement.onclick = () => {
     document.location = '/'
 }
 articleElement.onclick = () => {
-    document.location = '/articles/'
+    document.location = '/stories/'
 }
 
 navElement.appendChild(homeElement)

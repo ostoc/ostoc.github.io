@@ -1,27 +1,27 @@
 
 const contacts = [
     {
-        "title": "GitHub↗",
+        "title": "GitHub ⎇",
         "url": "https://github.com/ostoc"
     },
     {
-        "title": "Twitter↗",
+        "title": "Twitter ⎇",
         "url": "https://twitter.com/jpu__"
     },
     {
-        "title": "LinkedIn↗",
+        "title": "LinkedIn ⎇",
         "url": "http://linkedin.com/in/pujunyu/"
     }
 ]
 
 const pages = [
     {
-        "title": "Articles",
-        "url": "/articles/"
+        "title": "Stories",
+        "url": "/stories/"
     },
     {
         "title": "Projects",
-        "url": "#"
+        "url": "/projects/"
     },
     {
         "title": "About",

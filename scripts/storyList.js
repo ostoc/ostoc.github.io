@@ -10,18 +10,18 @@ export default [
         tags: ['ux', 'voice']
     },
     {
-        title: "Personal Knowledge Management",
+        title: "How to Build Your Personal Knowledge Management System",
         url: "pkm",
         tags: ['knowledge', 'manage']
     },
     {
-        title: "A path to find a better font",
+        title: "A Path to Find Better Font",
         url: "better-font",
         tags: ['font', 'ui']
     },
     {
-        title: "Building Design Systems",
-        url: "better-font",
-        tags: ['design system', 'ui']
+        title: "Build your Sketch Library for Fast Prototyping",
+        url: "sketch-library",
+        tags: ['design system', 'sketch']
     }
 ]
