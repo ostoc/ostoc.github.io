@@ -9,7 +9,7 @@ export default [
     {
         title: "Bill Spliter",
         url: "https://github.com/ostoc/bill-splitter",
-        description: `A fun project build with Vue.js. It helps split the biller with others.`,
+        description: `A fun project build with Vue.js. It helps split the bill with others.`,
         tags: ['vue', 'fun']
     },
     {

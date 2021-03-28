@@ -94,15 +94,15 @@ article p {
     line-height: 1.5;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 60rem) {
 
-    .image-text-aside,
-    img.wide {
+    article .image-text-aside,
+    article img.wide {
         width: 100%;
         margin-left: 0;
     }
 
-    .image-text-aside {
+    article .image-text-aside {
         grid-template-columns: 1fr;
     }
 

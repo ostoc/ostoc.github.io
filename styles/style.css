@@ -246,6 +246,10 @@ footer {
     background: var(--tag-background-color);
 }
 
+.item-list .tags span:last-child {
+    margin-right: 0;
+}
+
 
 @media (max-width: 960px) {
     main {
