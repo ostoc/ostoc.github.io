@@ -30,16 +30,18 @@ body {
     background: #f3f3f3;
 }
 
+h1,
+h2 {
+    font-weight: var(--font-weight-regular);
+    font-family: var(--font-family-serif);
+    line-height: 1.2;
+}
 
 h1 {
-    font-weight: var(--font-weight-regular);
-    line-height: 1.2;
-    font-family: var(--font-family-serif);
     font-size: 2rem;
 }
 
 h2 {
-    font-weight: var(--font-weight-regular);
     line-height: 1.2;
     font-size: 1.3rem;
 }
@@ -48,10 +50,6 @@ h2 {
 a {
     color: var(--text-color);
     text-decoration: none;
-}
-
-a:hover {
-    background: var(--primary-color);
 }
 
 .strike {
@@ -164,6 +162,10 @@ footer {
 
 .article-list {
     display: flex;
+}
+
+.article-list a:hover {
+    border-bottom: 4px solid var(--primary-color);
 }
 
 .article-list ul {

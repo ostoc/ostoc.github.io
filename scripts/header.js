@@ -16,7 +16,7 @@ articleElement.onclick = () => {
 
 navElement.appendChild(homeElement)
 
-if (navElement.getAttribute('data') === 'articles') {
+if (navElement.getAttribute('data') === 'article') {
 
     navElement.appendChild(dividerElement)
     navElement.appendChild(articleElement)

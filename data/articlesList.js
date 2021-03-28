@@ -1,7 +1,7 @@
 export default [
     {
         title: "Product Development Playbook",
-        url: "proudct-play-book",
+        url: "product-play-book",
         tags: ['prouduct', 'process']
     },
     {
