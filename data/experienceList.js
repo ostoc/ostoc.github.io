@@ -5,7 +5,7 @@ export default [
     },
     {
         title: "2019-04 -> 2020-12 | Design Engineer",
-        description: "Manage Voice Assistant",
+        description: "Manage Design System, build voice assitant app",
     },
     {
         title: "2018-01 -> 2019-03 | Proudct Designer",
