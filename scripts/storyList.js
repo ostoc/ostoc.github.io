@@ -9,11 +9,11 @@ export default [
         url: "not-on-instagram",
         tags: ['social media', 'thoughts']
     },
-    // {
-    //     title: "Mapping Voice Command",
-    //     url: "voice-ux",
-    //     tags: ['ux', 'voice']
-    // },
+    {
+        title: "Mapping Voice Command",
+        url: "voice-ux",
+        tags: ['ux', 'voice']
+    },
     {
         title: "How to Build Your Personal Knowledge Management System",
         url: "pkm",
