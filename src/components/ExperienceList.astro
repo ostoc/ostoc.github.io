@@ -1,0 +1,42 @@
+---
+import experienceData from '../json/experienceData.js';
+---
+
+{
+  experienceData.map((experience) => (
+    <div class="experience">
+      <div class="date">{experience.date}</div>
+      <div class="detail">
+        <div class="title">{experience.title}</div>
+        <div class="company">{experience.company}</div>
+        <div class="description" set:html={experience.description} />
+      </div>
+    </div>
+  ))
+}
+
+<style lang="scss">
+  .experience {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 1rem;
+  }
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    margin-bottom: 0.5rem;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+  }
+  .date,
+  .company {
+    margin-bottom: 0.8rem;
+    font-size: var(--font-size-sm);
+    color: var(--second-text-color);
+  }
+  .description {
+    font-family: var(--font-family-serif);
+  }
+</style>

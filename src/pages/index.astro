@@ -1,72 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Junyu</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="styles/style.css"
-      media="screen"
-    />
-  </head>
+---
+import IndexLayout from '../layouts/Layout.astro';
+import StoryList from '../components/StoryList.astro';
+import ExperienceList from '../components/ExperienceList.astro';
+---
 
-  <body>
-    <main>
-      <div>
-        <div id="top" class="banner"></div>
-        <div class="hero">
-          <h1>
-            Share stories about design system, design thinking and VUI design,
-            also thoughts and learning from product development.
-          </h1>
-          <h2>
-            Hi, this is Junyu. I'm a product manager
-            <span class="strike">designer and engineer</span> who lives and works
-            in Berlin<a href="/junyuappuroved">.</a>
-          </h2>
-        </div>
-      </div>
-      <article>
-        <tab>
-          <div class="item active" id="story-tab" onclick="switchTab('story')">
-            Stories
-          </div>
-          <div class="item" id="project-tab" onclick="switchTab('project')">
-            Projects
-          </div>
-        </tab>
-        <div id="story-list" class="item-list"></div>
-        <div id="project-list" class="item-list" style="display: none"></div>
-      </article>
-    </main>
-    <footer id="footer"></footer>
-  </body>
-</html>
-<script>
-  const topBarElement = document.getElementById('top');
-  const projectTabElement = document.getElementById('project-tab');
-  const storyTabElement = document.getElementById('story-tab');
-  const experienceListElement = document.getElementById('project-list');
-  const articleListElement = document.getElementById('story-list');
+<IndexLayout title="This is Junyu">
+  <!-- <div id="top" class="banner"></div> -->
+  <div class="hero">
+    <h1>
+      Hi, this is Junyu. I'm a product manager
+      <span class="strike">designer and engineer</span> who lives and works in Berlin<a
+        href="/junyuappuroved">.</a
+      >
+    </h1>
+    <h2>
+      Share stories about travel, books, design, programming also thoughts and
+      learning from product development.
+    </h2>
+  </div>
+  <div class="divider">Stories</div>
+  <StoryList />
+  <div class="divider">Experience</div>
+  <ExperienceList />
+</IndexLayout>
 
-  function switchTab(value) {
-    if (value === 'project') {
-      experienceListElement.style.display = 'flex';
-      articleListElement.style.display = 'none';
-      storyTabElement.classList.remove('active');
-      projectTabElement.classList.add('active');
-    } else {
-      experienceListElement.style.display = 'none';
-      articleListElement.style.display = 'flex';
-      storyTabElement.classList.add('active');
-      projectTabElement.classList.remove('active');
-    }
+<style>
+  .hero {
+    align-content: center;
+    padding: 3rem 0 1rem 0;
   }
-</script>
+  h1,
+  h2 {
+    font-family: var(--font-family-serif);
+    font-weight: var(--font-weight-regular);
+  }
 
-<script type="module" src="scripts/stories.js"></script>
-<script type="module" src="scripts/projects.js"></script>
-<script type="module" src="scripts/footer.js"></script>
+  h1 {
+    font-size: 2.6rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    line-height: 1.6rem;
+    font-size: 1.4rem;
+  }
+
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+
+  .strike {
+    text-decoration: line-through;
+    text-decoration-color: var(--text-color);
+    font-style: italic;
+    color: var(--primary-color);
+  }
+  .divider {
+    font-size: var(--font-size-md);
+    margin-top: 2rem;
+  }
+</style>

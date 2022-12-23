@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Build your Sketch Library for Fast Prototyping</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/styles/style.css"
-      media="screen"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/styles/page.css"
-      media="screen"
-    />
-  </head>
+---
+layout: ../../layouts/Post.astro
+title: Build your Sketch Library for Fast Prototypin
+date: 2021-08
+---
 
-  <body>
-    <nav id="nav" data="article"></nav>
-    <article>
       <h1>Build your Sketch Library for Fast Prototyping</h1>
       <p>
         Draw your design on paper, take pictures and import to a prototyping
@@ -157,10 +139,4 @@
           </li>
         </ol>
       </footnote>
-    </article>
-    <footer id="footer"></footer>
-  </body>
-</html>
-
-<script type="module" src="/scripts/footer.js"></script>
-<script type="module" src="/scripts/header.js"></script>
+  

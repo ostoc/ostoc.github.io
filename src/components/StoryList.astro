@@ -1,0 +1,46 @@
+---
+const posts = (await Astro.glob('../pages/stories/*.md')).sort(
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf()
+);
+---
+
+{
+  posts.map((post) => (
+    <div class="experience">
+      <div class="date">{post.frontmatter.date}</div>
+      <div class="detail">
+        <a class="title" href={post.url}>
+          {post.frontmatter.title}
+        </a>
+        <div class="description" set:html={post.frontmatter.description} />
+      </div>
+    </div>
+  ))
+}
+
+<style lang="scss">
+  .experience {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 1rem;
+  }
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    text-decoration: none;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
+  }
+  .date {
+    margin-bottom: 0.8rem;
+    font-size: var(--font-size-sm);
+    color: var(--second-text-color);
+  }
+  .description {
+    color: var(--second-text-color);
+  }
+</style>
