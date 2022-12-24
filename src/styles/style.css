@@ -23,7 +23,6 @@ html {
   font-size: 14px;
   font-family: var(--font-family-sans);
   color: var(--color-text);
-  font-feature-settings: 'kern' 1, 'liga' 1, 'onum' 1;
   padding: 0 1rem;
   word-break: normal;
   background: var(--color-background);

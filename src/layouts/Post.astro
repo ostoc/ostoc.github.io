@@ -81,11 +81,18 @@ const { title, frontmatter } = Astro.props;
 
   .footnotes ul,
   .footnotes ol {
-    padding: 0 3rem;
+    padding: 1rem 3rem;
   }
   .footnotes p {
     margin: 0;
     word-break: normal;
+  }
+  .footnotes a {
+    color: var(--color-text);
+    border-bottom: 0;
+  }
+  .data-footnote-backref {
+    font-family: monospace, 'Apple Color Emoji';
   }
   article {
     margin: 4rem auto;
@@ -132,7 +139,7 @@ const { title, frontmatter } = Astro.props;
     height: 1rem;
     text-align: center;
     display: inline-block;
-    line-height: 1rem;
+    line-height: 1.2rem;
     font-size: 0.6rem;
     border-radius: 0.5rem;
     background: var(--color-primary);
@@ -147,10 +154,5 @@ const { title, frontmatter } = Astro.props;
   .date {
     font-size: var(--font-size-sm);
     color: var(--color-text-secondary);
-  }
-
-  .footnotes a {
-    color: var(--color-text);
-    border-bottom: 0;
   }
 </style>
