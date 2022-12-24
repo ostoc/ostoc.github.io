@@ -8,11 +8,8 @@ import ExperienceList from '../components/ExperienceList.astro';
   <div class="hero">
     <h1>
       Hi, this is Junyu. I'm a product manager
-      <div class="strike">
-        <div class="text">(was) designer and engineer</div>
-        <div class="line"></div>
-      </div>
-      who lives and works in Berlin
+      <s>designer and engineer</s>
+      who works and lives in Berlin
       <div class="dot"><a href="/junyuappuroved">.</a></div>
     </h1>
     <h2>
@@ -52,16 +49,6 @@ import ExperienceList from '../components/ExperienceList.astro';
     text-decoration: none;
   }
 
-  .strike {
-    color: var(--color-text);
-    display: inline-block;
-    padding: 0 0.5rem;
-    background: var(--color-text);
-  }
-  .strike:hover {
-    cursor: default;
-    color: var(--color-primary);
-  }
   .divider {
     font-size: var(--font-size-md);
     margin-top: 2rem;
@@ -71,6 +58,9 @@ import ExperienceList from '../components/ExperienceList.astro';
     display: inline;
   }
   .dot:hover {
+    a {
+      color: var(--color-primary);
+    }
     line-height: 1rem;
     font-size: 6rem;
   }
