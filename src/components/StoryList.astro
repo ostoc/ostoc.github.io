@@ -14,7 +14,7 @@ const displayPosts = posts
 {
   displayPosts.map((post) => (
     <div class="experience">
-      <div class="date">{post.frontmatter.date}</div>
+      <div class="date">{post.frontmatter.date.split('T')[0]}</div>
       <div class="detail">
         <a class="title" href={post.url}>
           {post.frontmatter.title}

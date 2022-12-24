@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/Post.astro
 title: Not on Instagram
-date: 2020-12
-description: Instagra add the shopping tab, and I don't like it. Try to escape.
+date: 2020-12-26
+description: Instagram add the shopping tab, and I don't like it. Try to escape.
 ---
 # Not on Instagram
 
