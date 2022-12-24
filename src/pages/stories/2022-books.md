@@ -70,7 +70,7 @@ _Original title: Ensaio sobre a Cegueira_
 
 It's a story written by José Saramago about an epidemic of "white blindness" that spares across the world and how cruel the world can be under this pandemic. 
 
-## Overall
+## Summary
 
-This year most books are non-fictions. Compare to last year's non-fiction books, this year's topic is less on Product Management. It was surprise that I really enjoyed the 2 fictions books which reminded me that: **Reading is not only about learning, it can be a pure pleasure.**
+This year most books are non-fictions. Compare to last year's non-fiction books, this year's topic is less on Product Management. It was surprise that I really enjoyed the 2 fictions books which reminded me that: **Reading is not only about learning, it can be just a pure pleasure.**
 
