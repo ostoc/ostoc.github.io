@@ -19,6 +19,7 @@ const { title, frontmatter } = Astro.props;
   <body>
     <PageHeader />
     <article>
+      <div class="date">{frontmatter.date}</div>
       <slot />
     </article>
   </body>
@@ -26,62 +27,75 @@ const { title, frontmatter } = Astro.props;
 </html>
 
 <style is:inline lang="scss">
-  body {
-    margin: 0 auto;
+  h1,
+  h2,
+  h3,
+  h4 {
+    padding: 0;
+    margin: 0;
   }
 
   h1 {
     font-weight: var(--font-weight-regular);
-    font-size: 2.2rem;
+    font-size: var(--font-size-xxl);
+    margin: 1rem 0 4rem 0;
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
     font-family: var(--font-family-sans);
+    margin: 2rem 0 0.8rem 0;
   }
 
   h3 {
     font-family: var(--font-family-sans);
-    font-size: 1.2rem;
+    font-size: var(--font-size-lg);
+    margin: 1.2rem 0 0.5rem 0;
   }
 
   blockquote {
-    color: var(--second-text-color);
-    border-left: 0.2rem solid var(--second-text-color);
+    border-left: 0.3rem solid var(--second-text-color);
     line-height: 1.2;
     padding-left: 1.2rem;
     margin: 0;
   }
-
-  footnote {
+  .sr-only {
+    display: none;
+  }
+  .footnotes::before {
+    content: '';
+    width: 4rem;
+    height: 1rem;
+    background: var(--second-text-color);
+  }
+  .footnotes {
     margin-top: 4rem;
     display: flex;
-    padding: 0 1rem;
+    flex-direction: column;
     word-break: break-all;
     font-size: var(--font-size-sm);
     font-family: var(--font-family-sans);
     background: var(--footer-background-color);
   }
 
-  footnote ul,
-  footnote ol {
-    padding: 0 1rem;
+  .footnotes ul,
+  .footnotes ol {
+    padding: 0 3rem;
   }
-  a {
-    color: var(--second-text-color);
-    text-decoration: none;
+  .footnotes p {
+    margin: 0;
+    word-break: normal;
   }
   article {
     margin: 4rem auto;
-    min-height: 70vh;
-    max-width: 40rem;
     font-family: var(--font-family-serif);
   }
 
   article ul,
   article ol {
     padding-left: 1.5rem;
+    line-height: 1.5;
   }
 
   article .image-text-aside {
@@ -112,10 +126,25 @@ const { title, frontmatter } = Astro.props;
   }
 
   article a {
+    color: var(--primary-color);
+    text-decoration: none;
     border-bottom: 2px solid var(--primary-color);
   }
 
   article p {
+    margin: 0.5rem 0;
+    padding: 0;
     line-height: 1.5;
+  }
+
+  .date {
+    font-size: var(--font-size-sm);
+    color: var(--second-text-color);
+  }
+
+  .footnotes a {
+    color: var(--text-color);
+    border-bottom: 0;
+    text-decoration: none;
   }
 </style>

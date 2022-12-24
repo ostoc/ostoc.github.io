@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600&display=swap');
+
 :root {
-  --text-color: rgb(47, 47, 47);
-  --second-text-color: rgb(134, 134, 134);
+  --text-color: rgb(48, 47, 47);
+  --background-color: rgb(230, 230, 230);
+  --second-text-color: rgb(100, 100, 100);
   --primary-color: rgb(212, 200, 31);
   --tag-background-color: #ddd;
-  --footer-background-color: rgb(230, 230, 230);
+  --footer-background-color: rgb(220, 220, 220);
   --input-background-color: #f8f8f8;
   --input-background-focus-color: #b5e2fc;
   --font-size-sm: 1rem;
   --font-size-md: 1.2rem;
-  --font-size-lg: 1.5rem;
+  --font-size-lg: 1.4rem;
+  --font-size-xl: 1.6rem;
+  --font-size-xxl: 2.4rem;
   --font-weight-bold: 600;
   --font-weight-regular: 400;
   --border-color: #dddddd;
@@ -20,17 +22,19 @@
   --font-family-serif: 'Newsreader', serif;
 }
 html {
-  font-size: 16px;
+  font-size: 14px;
   font-family: var(--font-family-sans);
   color: var(--text-color);
   font-feature-settings: 'kern' 1, 'liga' 1, 'onum' 1;
+  padding: 0 1rem;
+  word-break: normal;
+  background: var(--background-color);
 }
 
 body {
-  margin: 0;
-  max-width: 640px;
+  margin: 0 auto;
+  max-width: 40rem;
   font-size: var(--font-size-md);
-  background: #e7e7e7;
 }
 
 
@@ -45,40 +49,4 @@ button {
 button:hover {
   cursor: pointer;
   background: var(--primary-color);
-}
-
-
-main {
-  margin: 0 4rem;
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-column-gap: 2rem;
-  min-height: 88vh;
-}
-
-main img {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 4rem;
-  mix-blend-mode: darken;
-}
-
-.banner {
-  display: flex;
-  height: 3rem;
-  background: #333;
-  position: sticky;
-  top: 0;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: #fff;
-}
-
-
-tab {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border-bottom: 1px solid var(--border-color);
-  height: 3rem;
 }

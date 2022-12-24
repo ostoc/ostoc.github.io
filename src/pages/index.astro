@@ -5,13 +5,15 @@ import ExperienceList from '../components/ExperienceList.astro';
 ---
 
 <IndexLayout title="This is Junyu">
-  <!-- <div id="top" class="banner"></div> -->
   <div class="hero">
     <h1>
       Hi, this is Junyu. I'm a product manager
-      <span class="strike">designer and engineer</span> who lives and works in Berlin<a
-        href="/junyuappuroved">.</a
-      >
+      <div class="strike">
+        <div class="text">(was) designer and engineer</div>
+        <div class="line"></div>
+      </div>
+      who lives and works in Berlin
+      <div class="dot"><a href="/junyuappuroved">.</a></div>
     </h1>
     <h2>
       Share stories about travel, books, design, programming also thoughts and
@@ -19,12 +21,12 @@ import ExperienceList from '../components/ExperienceList.astro';
     </h2>
   </div>
   <div class="divider">Stories</div>
-  <StoryList />
+  <StoryList postCount="3" />
   <div class="divider">Experience</div>
   <ExperienceList />
 </IndexLayout>
 
-<style>
+<style lang="scss">
   .hero {
     align-content: center;
     padding: 3rem 0 1rem 0;
@@ -36,13 +38,13 @@ import ExperienceList from '../components/ExperienceList.astro';
   }
 
   h1 {
-    font-size: 2.6rem;
+    font-size: var(--font-size-xxl);
     line-height: 3rem;
   }
 
   h2 {
     line-height: 1.6rem;
-    font-size: 1.4rem;
+    font-size: var(--font-size-lg);
   }
 
   a {
@@ -51,13 +53,31 @@ import ExperienceList from '../components/ExperienceList.astro';
   }
 
   .strike {
-    text-decoration: line-through;
-    text-decoration-color: var(--text-color);
-    font-style: italic;
     color: var(--primary-color);
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .strike .line {
+    width: 100%;
+    height: 3rem;
+    background: rgba(0, 0, 0, 0.9);
+    margin-top: -3rem;
+  }
+  .strike:hover {
+    .line {
+      z-index: -1;
+    }
   }
   .divider {
     font-size: var(--font-size-md);
     margin-top: 2rem;
+  }
+  .dot {
+    line-height: 1rem;
+    display: inline;
+  }
+  .dot:hover {
+    line-height: 1rem;
+    font-size: 6rem;
   }
 </style>

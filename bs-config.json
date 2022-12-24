@@ -1,9 +1,0 @@
-{
-    "serve": "./",
-    "files": [
-        "./**/*.{html,htm,css,js}"
-    ],
-    "serveStatic": [
-        "./"
-    ]
-}

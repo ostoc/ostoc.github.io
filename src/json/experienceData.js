@@ -1,6 +1,6 @@
 export default [
     {
-        date: "2022-09 → Now",
+        date: "2022-09 → Current",
         title: "Prouduct Manager",
         company: 'Delievery Hero',
         description: "Just PM Job",
@@ -12,8 +12,8 @@ export default [
         description: "Manage Design System, build voice assitant app",
     },
     {
-        date: "2018-01 → 2019-03",
-        title: "Proudct Designer & Fontend Developer",
+        date: "2016-09 → 2019-03",
+        title: "Proudct Designer & Fontend Engineer",
         company: "3YOURMIND GmbH, Berlin",
         description: "Building Django app for 3D printing software.",
     }

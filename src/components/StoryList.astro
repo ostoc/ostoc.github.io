@@ -4,10 +4,13 @@ const posts = (await Astro.glob('../pages/stories/*.md')).sort(
     new Date(b.frontmatter.date).valueOf() -
     new Date(a.frontmatter.date).valueOf()
 );
+
+const { postCount } = Astro.props;
+const displayPosts = posts.slice(0, postCount);
 ---
 
 {
-  posts.map((post) => (
+  displayPosts.map((post) => (
     <div class="experience">
       <div class="date">{post.frontmatter.date}</div>
       <div class="detail">
@@ -41,6 +44,9 @@ const posts = (await Astro.glob('../pages/stories/*.md')).sort(
     color: var(--second-text-color);
   }
   .description {
+    margin-top: 0.8rem;
     color: var(--second-text-color);
+    line-height: 1.2;
+    font-family: var(--font-family-serif);
   }
 </style>
