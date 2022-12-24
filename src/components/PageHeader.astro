@@ -1,5 +1,9 @@
+---
+const { type } = Astro.props;
+---
+
 <nav>
-  <a href="/"><div class="home"></div></a>
+  <a href={type === 'post' ? '/stories' : '/'}><div class="home"></div></a>
   <div>/</div>
   <div><a href="/stories">Stories</a></div>
 </nav>
@@ -11,7 +15,7 @@
     align-items: center;
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-bold);
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--color-border);
   }
 
   nav div {
@@ -21,7 +25,7 @@
   .home {
     width: 1rem;
     height: 1rem;
-    background: var(--text-color);
+    background: var(--color-text);
   }
 
   nav div:hover {
@@ -32,6 +36,6 @@
   a,
   a:visited {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--color-text);
   }
 </style>

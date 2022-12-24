@@ -17,7 +17,7 @@ const { title, frontmatter } = Astro.props;
     <title>{title ? title : frontmatter.title}</title>
   </head>
   <body>
-    <PageHeader />
+    <PageHeader type="post" />
     <article>
       <div class="date">{frontmatter.date}</div>
       <slot />
@@ -55,7 +55,7 @@ const { title, frontmatter } = Astro.props;
   }
 
   blockquote {
-    border-left: 0.3rem solid var(--second-text-color);
+    border-left: 0.3rem solid var(--color-text-secondary);
     line-height: 1.2;
     padding-left: 1.2rem;
     margin: 0;
@@ -67,7 +67,7 @@ const { title, frontmatter } = Astro.props;
     content: '';
     width: 4rem;
     height: 1rem;
-    background: var(--second-text-color);
+    background: var(--color-text-secondary);
   }
   .footnotes {
     margin-top: 4rem;
@@ -76,7 +76,7 @@ const { title, frontmatter } = Astro.props;
     word-break: break-all;
     font-size: var(--font-size-sm);
     font-family: var(--font-family-sans);
-    background: var(--footer-background-color);
+    background: var(--color-footernotes-background);
   }
 
   .footnotes ul,
@@ -94,6 +94,7 @@ const { title, frontmatter } = Astro.props;
 
   article ul,
   article ol {
+    margin: 0;
     padding-left: 1.5rem;
     line-height: 1.5;
   }
@@ -121,14 +122,20 @@ const { title, frontmatter } = Astro.props;
     margin-left: -10rem;
   }
 
-  article sup {
-    color: var(--primary-color);
+  article a {
+    color: var(--color-text);
+    text-decoration: none;
   }
 
-  article a {
-    color: var(--primary-color);
-    text-decoration: none;
-    border-bottom: 2px solid var(--primary-color);
+  article sup a {
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    display: inline-block;
+    line-height: 1rem;
+    font-size: 0.6rem;
+    border-radius: 0.5rem;
+    background: var(--color-primary);
   }
 
   article p {
@@ -139,12 +146,11 @@ const { title, frontmatter } = Astro.props;
 
   .date {
     font-size: var(--font-size-sm);
-    color: var(--second-text-color);
+    color: var(--color-text-secondary);
   }
 
   .footnotes a {
-    color: var(--text-color);
+    color: var(--color-text);
     border-bottom: 0;
-    text-decoration: none;
   }
 </style>

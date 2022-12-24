@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600&display=swap');
 
 :root {
-  --text-color: rgb(48, 47, 47);
-  --background-color: rgb(230, 230, 230);
-  --second-text-color: rgb(100, 100, 100);
-  --primary-color: rgb(212, 200, 31);
-  --tag-background-color: #ddd;
-  --footer-background-color: rgb(220, 220, 220);
-  --input-background-color: #f8f8f8;
-  --input-background-focus-color: #b5e2fc;
+  --color-background: rgb(240, 240, 240);
+  --color-border: rgb(220,220,220);
+  --color-primary: rgb(212, 200, 31);
+  --color-text: rgb(45, 45, 45);
+  --color-text-secondary: rgb(100, 100, 100);
+  --color-text-tertiary: rgb(120, 120, 120);
+  --color-footernotes-background: rgb(230, 230, 230);
   --font-size-sm: 1rem;
   --font-size-md: 1.2rem;
   --font-size-lg: 1.4rem;
@@ -17,18 +16,17 @@
   --font-size-xxl: 2.4rem;
   --font-weight-bold: 600;
   --font-weight-regular: 400;
-  --border-color: #dddddd;
   --font-family-sans: 'Hanken Grotesk', sans-serif;
   --font-family-serif: 'Newsreader', serif;
 }
 html {
   font-size: 14px;
   font-family: var(--font-family-sans);
-  color: var(--text-color);
+  color: var(--color-text);
   font-feature-settings: 'kern' 1, 'liga' 1, 'onum' 1;
   padding: 0 1rem;
   word-break: normal;
-  background: var(--background-color);
+  background: var(--color-background);
 }
 
 body {
@@ -48,5 +46,5 @@ button {
 
 button:hover {
   cursor: pointer;
-  background: var(--primary-color);
+  background: var(--color-primary);
 }

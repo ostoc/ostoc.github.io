@@ -6,7 +6,9 @@ const posts = (await Astro.glob('../pages/stories/*.md')).sort(
 );
 
 const { postCount } = Astro.props;
-const displayPosts = posts.slice(0, postCount);
+const displayPosts = posts
+  .filter((post) => !post.frontmatter.draft)
+  .slice(0, postCount);
 ---
 
 {
@@ -39,18 +41,21 @@ const displayPosts = posts.slice(0, postCount);
     flex-direction: column;
   }
   .title {
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: var(--font-weight-bold);
-    color: var(--text-color);
+    color: var(--color-text);
+    &:hover {
+      color: var(--color-text-secondary);
+    }
   }
   .date {
     margin-bottom: 0.8rem;
     font-size: var(--font-size-sm);
-    color: var(--second-text-color);
+    color: var(--color-text-tertiary);
   }
   .description {
     margin-top: 0.8rem;
-    color: var(--second-text-color);
+    color: var(--color-text-secondary);
     line-height: 1.2;
     font-family: var(--font-family-serif);
   }

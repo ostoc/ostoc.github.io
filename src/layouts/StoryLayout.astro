@@ -19,20 +19,16 @@ const { title, frontmatter } = Astro.props;
   <body>
     <PageHeader />
     <div class="hero">
-      <h1>All Stories</h1>
+      <h1>{title}</h1>
     </div>
     <slot />
     <Footer />
   </body>
 </html>
 
-<style is:inline>
+<style>
   .hero {
     margin: 4rem 0;
-  }
-  body {
-    margin: 0 auto;
-    min-height: 1vh;
   }
 
   h1 {
