@@ -2,8 +2,8 @@ export default [
     {
         date: "2022-09 → Current",
         title: "Prouduct Manager",
-        company: 'Delievery Hero',
-        description: "Just PM Job",
+        company: 'Delievery Hero SE',
+        description: "Just a PM Job",
     },
     {
         date: "2019-04 → 2022-08",
