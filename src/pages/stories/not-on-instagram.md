@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Post.astro
+layout: ../../layouts/PostLayout.astro
 title: Not on Instagram
 date: 2020-12-26
 description: Instagram add the shopping tab, and I don't like it. Try to escape.

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Post.astro
+layout: ../../layouts/PostLayout.astro
 title: How to Build Your Personal Knowledge Management System
 date: 2019-10-24
 description: A personal knowledge system allows your to manage your knowledge in an organized way and transfer them to wisdom.

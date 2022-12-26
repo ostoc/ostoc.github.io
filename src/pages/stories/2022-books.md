@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Post.astro
+layout: ../../layouts/PostLayout.astro
 title: Reading List 2022
 date: 2022-12-24
 description: I made a commitment to read at least 12 books every year. I don't limit the genres or types. Here the 2022 Reading List.

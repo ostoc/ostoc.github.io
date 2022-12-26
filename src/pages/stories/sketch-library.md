@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Post.astro
+layout: ../../layouts/PostLayout.astro
 title: Build your Sketch Library for Fast Prototyping
 date: 2017-08-12
 description: Apply Design System concept in Sketch and using them to build fast prototype.
