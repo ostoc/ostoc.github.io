@@ -1,13 +1,13 @@
 export default [
     {
         title: "LabTwin Voice Assistant",
-        description: `A voice assistant which helps scientis on bench to access data, 
+        description: `A voice assistant which helps scientists on the bench to access data, 
         look up information, coordinate experiments, take notes and record results in real-time.`,
         url: "https://www.labtwin.com/",
-        tags: ['mobile', 'web', 'proudct', 'design']
+        tags: ['mobile', 'web', 'product', 'design']
     },
     {
-        title: "Bill Spliter",
+        title: "Bill Splitter",
         url: "https://github.com/ostoc/bill-splitter",
         description: `A fun project build with Vue.js. It helps split the bill with others.`,
         tags: ['vue', 'fun']
