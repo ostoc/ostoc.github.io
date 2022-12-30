@@ -34,16 +34,12 @@ body {
   font-size: var(--font-size-md);
 }
 
-
-button {
-  border: 2px solid;
-  font-size: var(--font-size-md);
-  padding: 1rem 1.2rem;
-  outline: 0;
-  background: transparent;
-}
-
-button:hover {
-  cursor: pointer;
-  background: var(--color-primary);
-}
+.dark{
+    --color-background: rgb(32, 32, 32);
+    --color-border: rgb(65, 65, 65);
+    --color-primary: rgb(212, 200, 31);
+    --color-text: rgb(230, 229, 229);
+    --color-text-secondary: rgb(218, 218, 218);
+    --color-text-tertiary: rgb(158, 158, 158);
+    --color-footernotes-background: rgb(65, 65, 65);
+  }
