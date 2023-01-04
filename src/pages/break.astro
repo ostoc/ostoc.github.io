@@ -1,1 +1,78 @@
-<img src="/images/break.gif" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Take a break</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image"><img src="/images/break.gif" /></div>
+      <div id="slogan" class="text">
+        Say no to desk!<br /> Take 15s break.
+      </div>
+      <div id="timer" class="timer">
+        <div class="progress_bar" id="progress"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style lang="scss">
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  body {
+    margin: 0;
+    background: rgb(254, 71, 0);
+  }
+  .container {
+    max-width: 500px;
+    display: flex;
+    margin: 10vh auto;
+    flex-direction: column;
+  }
+  .text {
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-align: center;
+  }
+  .timer {
+    margin: 40px 0;
+    display: flex;
+    height: 24px;
+    align-items: center;
+    border-radius: 12px;
+    background: white;
+  }
+  .progress_bar {
+    height: 18px;
+    border-radius: 9px;
+    background: rgb(254, 71, 0);
+    width: 100%;
+    margin: 4px;
+    animation: progress 15s linear;
+  }
+  .image {
+    width: 100%;
+  }
+  .image img {
+    width: 100%;
+  }
+  @keyframes progress {
+    100% {
+      transform: scaleX(0);
+      transform-origin: 0% 0%;
+    }
+    0% {
+      transform: scaleX(1);
+      transform-origin: 0% 0%;
+    }
+  }
+</style>
+
+<script>
+  setTimeout(() => {
+    document.getElementById('slogan').textContent = 'Yeah! You did it!';
+    document.getElementById('timer').style.display = 'none';
+  }, 15000);
+</script>
