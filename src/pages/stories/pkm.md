@@ -53,12 +53,8 @@ Sharing knowledge helps you to understand the knowledge better by transferring t
 
 ## Slide
 
-Here is the slides[^slide] I made for one of the talk.
-
-<iframe src="http://docs.google.com/gview?url=https://jpu.vercel.app/files/PKM.pdf&embedded=true" width="100%" height="320px" frameborder="0"></iframe>
-
+Here is [the slides](/files/PKM.pdf) I made for one of the talk.
 
 [^4Cs]: https://cultivatedmanagement.com/personal-knowledge-management-system/
 [^wiki]: https://en.wikipedia.org/wiki/DIKW_pyramid
 [^3]: https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb
-[^slide]: [Download the slide](/files/PKM.pdf)
