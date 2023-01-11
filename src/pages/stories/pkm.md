@@ -55,7 +55,7 @@ Sharing knowledge helps you to understand the knowledge better by transferring t
 
 Here is the slides[^slide] I made for one of the talk.
 
-<iframe src="/files/pkm.pdf#view=fitH" width="100%" height = "320px" style="border:none"></iframe>
+<embed src="/files/PKM.pdf" width="100%" height="320px" />
 
 
 [^4Cs]: https://cultivatedmanagement.com/personal-knowledge-management-system/
