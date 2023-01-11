@@ -51,6 +51,14 @@ Using your knowledge is a way to help you transfer knowledge to wisdom and help 
 
 Sharing knowledge helps you to understand the knowledge better by transferring the knowledge to others.
 
+## Slide
+
+Here is the slides[^slide] I made for one of the talk.
+
+<iframe src="/files/pkm.pdf#view=fitH" width="100%" height = "320px" style="border:none"></iframe>
+
+
 [^4Cs]: https://cultivatedmanagement.com/personal-knowledge-management-system/
 [^wiki]: https://en.wikipedia.org/wiki/DIKW_pyramid
 [^3]: https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb
+[^slide]: [Download the slide](/files/PKM.pdf)
