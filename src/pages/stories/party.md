@@ -10,10 +10,9 @@ description: Instagram add the shopping tab, and I don't like it. Try to escape.
 <img class="filter" src="/images/party.png"  />
 
 
-<button onclick="window.location.href='https://t.me/+aGqvx8fTL1Q3YzE6'">
+<button onclick="window.location.href='https://t.me/+O8Fu9uLJGKNkZjM0'">
   💬 Join the Telegram group
 </button>
-
 
 Dear friends,
 
