@@ -162,14 +162,20 @@ const { title, frontmatter } = Astro.props;
     color: var(--color-text-secondary);
   }
 
-  button {
-    margin: 0.5rem 0;
-    background: transparent;
+  .button {
+    margin: 1rem 0;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
     width: 100%;
-    border: 2px solid var(--color-text);
+    border: 1px solid var(--color-text);
     padding: 0.8rem;
     color: var(--color-text);
-    font-size: large;
+    font-size: medium;
     font-family: var(--font-family-sans);
+  }
+  .button--disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
   }
 </style>

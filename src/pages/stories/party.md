@@ -9,17 +9,14 @@ description: Summer is coming!!! 🌞 To kick off the party season in Berlin, jo
 
 <img class="filter" src="/images/party.png"  />
 
-
-<button onclick="window.location.href='https://t.me/+O8Fu9uLJGKNkZjM0'">
-  💬 Join the Telegram group
-</button>
-
 Dear friends,
 
 Summer is coming!!! 🌞 To kick off the party season in Berlin, we are iniviting you to our birthday lake rave party.  
 
+*General information*
+
 - 📅 **2023-06-03 around 15:00**, opening hours all day and night.
-- 📍 **Flughafensee**. Accurate location will be update once we are set. 
+- 📍 **Flughafensee**, accurate location will be update once we are set. 
 
 *Sidenotes*
 - 🔖 Don't use Telegram? Bookmark this page, we will update all the information you needed later.
@@ -31,3 +28,14 @@ Summer is coming!!! 🌞 To kick off the party season in Berlin, we are inivitin
 
 **Junyu & Orestis**
 
+<a class="button" href="https://t.me/+O8Fu9uLJGKNkZjM0">
+  💬 Join the Telegram group
+</a>
+
+<a class="button" href="/files/event.ics">
+  📆 Add to your calendar
+</a>
+
+<a class="button button--disabled">
+  🗺️ Get there
+</a>
