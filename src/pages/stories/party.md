@@ -2,7 +2,7 @@
 layout: ../../layouts/PostLayout.astro
 title: Birthday Lake Rave
 date: 2023-04-26
-description: Instagram add the shopping tab, and I don't like it. Try to escape.
+description: Summer is coming!!! 🌞 To kick off the party season in Berlin, join our birthday lake rave party.  
 ---
 
 # 🪼 B-day Lake Rave 🪩
