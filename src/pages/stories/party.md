@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: Berlin Summer Parties
+title: Birthday Lake Rave
 date: 2023-04-26
 description: Instagram add the shopping tab, and I don't like it. Try to escape.
 ---
 
-# 🪼 Birthday Lake Rave 🪩
+# 🪼 B-day Lake Rave 🪩
 
 <img class="filter" src="/images/party.png"  />
 
