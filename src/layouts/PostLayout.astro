@@ -131,6 +131,10 @@ const { title, frontmatter } = Astro.props;
     margin-left: -10rem;
   }
 
+  article img.filter {
+    filter: invert(var(--filter-invert));
+  }
+
   article a {
     color: var(--color-text);
   }
@@ -156,5 +160,16 @@ const { title, frontmatter } = Astro.props;
   .date {
     font-size: var(--font-size-sm);
     color: var(--color-text-secondary);
+  }
+
+  button {
+    margin: 0.5rem 0;
+    background: transparent;
+    width: 100%;
+    border: 2px solid var(--color-text);
+    padding: 0.8rem;
+    color: var(--color-text);
+    font-size: large;
+    font-family: var(--font-family-sans);
   }
 </style>
