@@ -11,7 +11,7 @@ description: Summer is coming!!! 🌞 To kick off the party season in Berlin, jo
 
 Dear friends,
 
-Summer is coming!!! 🌞 To kick off the party season in Berlin, we are iniviting you to our birthday lake rave party.  
+Summer is coming!!! 🌞 To kick off the party season in Berlin, we are iniviting you to our birthday lake party/rave. 🪩  
 
 *General information*
 
