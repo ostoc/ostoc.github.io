@@ -22,7 +22,7 @@ To kick off the party season in Berlin, we are iniviting you to our birthday lak
 ---
 
 <a class="button primary" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
-  🗺️ Get there (Google Maps) ->
+  🗺️ Get there (U6-Holzhauser Str.) ->
 </a>
 
 ---
