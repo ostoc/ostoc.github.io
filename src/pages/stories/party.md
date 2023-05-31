@@ -56,7 +56,7 @@ There will be no restaurant in the nature, if you get hungry easily, bring some 
 ## 🪩 DJ Line Up
 
 Yes! We have DJs for this rave. Here is the line up. 
-During the day, it will be chill house music to set the mood. As the night prolong, the music will get hard. We hope you are enjoin this setup :D
+During the day, it will be chill house music to set the mood. As the night prolong, the music will get harder. We hope you are enjoy this lineup. 
 
 - 16:00 Harris
 - 17:30 Ines
