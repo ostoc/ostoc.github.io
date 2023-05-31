@@ -39,19 +39,19 @@ It's German summer, the night can get cold. Bring long pants and sweater to stay
 
 ### 🍺 Rule 3. Bring enough drinks that set you into the rave mood
 
-There is no Späti for you to buy drinks in the nature, if your fun rely on alcohol, bring enough drinks to make yourself into that mood. If you want to be a popular kids at the party, sharing you drinks are always a good trick.
+There is no Späti for you to buy drinks in the nature, if your fun relies on alcohol, bring enough drinks to make yourself into that mood. If you want to be a popular kid at the party, sharing you drinks are always a good trick.
 
 
 ### 🧺 Rule 4. Bring a towel or blanket
 
 As denoted in The Hitchhiker's Guide to the Galaxy: *A towel, it says, is about the most massively useful thing an interstellar hitchhiker can have.* You can use it as a bag to carry beverages and food, you can use it as a skirt for the dance floor, you can use it to fight off a wild boar at night, you can sit on it if it rains you can sit under it. 
 
-If you'd like to swim in the lake or stay longer till the evening. A towel is always the perfect option. It can be used for drying your body and also can be an extra layer when it's cold.
+If you'd like to swim in the lake or stay longer till the evening. A towel is always the perfect item. It can be used for drying your body and also can be an extra layer when it's cold.
 
 
 ### 🍟 Rule 5. If you are a snacker or get hungry easily, bring some food
 
-There will be no restaurant in the nature, if you get hungry easily, bring some food for yourself. Sharing is caring, and makes your popular -- bring food for others are always welcome.
+There will be no restaurant in the nature, if you get hungry easily, bring some food! Sharing is caring, and it makes your popular -- bring food for others are always welcome.
 
 ## 🪩 DJ Line Up
 
