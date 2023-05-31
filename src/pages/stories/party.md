@@ -11,41 +11,49 @@ description: Summer is coming!!! 🌞 To kick off the party season in Berlin, jo
 
 Dear friends,
 
-Summer is coming!!! 🌞 To kick off the party season in Berlin, we are iniviting you to our birthday lake party/rave. 🪩  
+Summer is coming!!! 🌞 
+
+To kick off the party season in Berlin, we are iniviting you to our birthday lake party/rave. 🪩  
 
 *You are in, right?*
 
 **Junyu & Orestis**
 
-<a class="button" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
-  🗺️ Get there
+---
+
+<a class="button primary" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
+  🗺️ Get there (Google Maps) ->
 </a>
 
 ---
 
-## Raver's Guide to Lake Rave
+## 🎊 Raver's Guide to Lake Rave
 
-### Rule 1. Bring enough water for yourself
+### 💦 Rule 1. Bring enough water for yourself
 
 It will be a hot day, be hydrate is important for you. So please bring at lease 2 liters of water for yourself. If you have extra  space, bring another liter of water for other ravers.
 
-### Rule 2. If you want to stay over night, bring warm cloth
+### 🧥 Rule 2. If you want to stay over night, bring warm cloth
 
 It's German summer, the night can get cold. Bring long pants and sweater to stay warm. Otherwise, you have to dance all night to stay warm.
 
-### Rule 3. Bring enough drinks that set you into the rave mood
+### 🍺 Rule 3. Bring enough drinks that set you into the rave mood
 
 There is no Späti for you to buy drinks in the nature, if your fun rely on alcohol, bring enough drinks to make yourself into that mood. If you want to be a popular kids at the party, sharing you drinks are always a good trick.
 
 
-### Rule 4. Bring a towel or blanket
+### 🧺 Rule 4. Bring a towel or blanket
+
+As denoted in The Hitchhiker's Guide to the Galaxy: *A towel, it says, is about the most massively useful thing an interstellar hitchhiker can have.* You can use it as a bag to carry beverages and food, you can use it as a skirt for the dance floor, you can use it to fight off a wild boar at night, you can sit on it if it rains you can sit under it. 
+
 If you'd like to swim in the lake or stay longer till the evening. A towel is always the perfect option. It can be used for drying your body and also can be an extra layer when it's cold.
 
-### Rule 5. If you are a snacker and get hungry easily, bring some food
+
+### 🍟 Rule 5. If you are a snacker or get hungry easily, bring some food
 
 There will be no restaurant in the nature, if you get hungry easily, bring some food for yourself. Sharing is caring, and makes your popular -- bring food for others are always welcome.
 
-## DJ Line Up
+## 🪩 DJ Line Up
 
 Yes! We have DJs for this rave. Here is the line up. 
 During the day, it will be chill house music to set the mood. As the night prolong, the music will get hard. We hope you are enjoin this setup :D
@@ -57,10 +65,4 @@ During the day, it will be chill house music to set the mood. As the night prolo
 - 22:00 Facu
 - 23:30 Roin
 - 01:00 B2B
-
-
-## Sidenotes
-- 🧺 As denoted in The Hitchhiker's Guide to the Galaxy: *A towel, it says, is about the most massively useful thing an interstellar hitchhiker can have.* You can use it as a bag to carry beverages and food, you can use it as a skirt for the dance floor, you can use it to fight off a wild boar at night, you can sit on it if it rains you can sit under it.
-- ❄️ **We’d appreciate it if certain things stay hidden till darkness** — it doesn’t mean you can’t swim naked, that we encourage.
-
 
