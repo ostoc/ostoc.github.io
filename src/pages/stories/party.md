@@ -61,7 +61,7 @@ During the day, it will be chill house music to set the mood. As the night prolo
 - 16:00 Harris
 - 17:30 Ines
 - 19:00 Sasha
-- 20:30 Pepe
+- 20:30 Fuunkt
 - 22:00 Facu
 - 23:30 Roin
 - 01:00 B2B
