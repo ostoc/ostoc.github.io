@@ -62,11 +62,10 @@ There will be no restaurant in the nature, if you get hungry easily, bring some 
 Yes! We have DJs for this rave. Here is the line up. 
 During the day, it will be chill house music to set the mood. As the night prolong, the music will get harder. We hope you are enjoy this lineup. 
 
-- 16:00 Harris
-- 17:30 Ines
-- 19:00 Sasha
+- 16:00 Babis
+- 17:30 3ple kix
+- 19:00 20TRACKS
 - 20:30 Fuunkt - [Soundcloud](https://soundcloud.com/fuunkt)
-- 22:00 Facu
+- 22:00 dj Martha
 - 23:30 Roin
 - 01:00 B2B
-
