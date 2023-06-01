@@ -21,8 +21,12 @@ To kick off the party season in Berlin, we are iniviting you to our birthday lak
 
 ---
 
-<a class="button primary" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
-  🗺️ Get there (U6-Holzhauser Str.) ->
+<a class="button" href="/files/event.ics">
+  📆 When -> 2023-06-03 from 15:00
+</a>
+
+<a class="button" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
+  🗺️ Get there -> nearest station U6 - Holzhauser Str.
 </a>
 
 ---
