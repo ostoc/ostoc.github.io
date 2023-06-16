@@ -53,9 +53,9 @@ You can find our DJs' Soundcloud or social media in this table.
 | DJ        | Link                                        |
 | --------- | ------------------------------------------- |
 | Babis     | --                                          |
-| 3ple kix  | --                                          |
-| 20TRACKS  | --                                          |
-| Fuunkt    | [Soundcloud](https://soundcloud.com/fuunkt) |
+| 3ple kix  | [SoundCloud](https://soundcloud.com/3plekix)                                        |
+| 20TRACKS  | [SoundCloud](https://on.soundcloud.com/osBon)                                       |
+| Fuunkt    | [SoundCloud](https://soundcloud.com/fuunkt) |
 | dj Martha | --                                          |
 | Roin      | --                                          |
 | B2B       | --                                          |
