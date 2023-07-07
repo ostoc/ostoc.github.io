@@ -15,6 +15,7 @@ We will follow the same logistic from last year. Feel free to join us at any pic
 
 Looking forward to seeing you 💋
 
+<a class="button" herf="https://t.me/+1QjkB02uAJliMGQy">Join the Telegram</a>
 
 ## Pickup Points
 
@@ -26,6 +27,4 @@ Looking forward to seeing you 💋
 
 
 
-## Join the Telegram Group
 
-<a class="button" herf="https://t.me/+1QjkB02uAJliMGQy">Telegram</a>
