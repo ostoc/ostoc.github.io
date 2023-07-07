@@ -28,4 +28,4 @@ Looking forward to seeing you 💋
 
 ## Join the Telegram Group
 
-<a herf="https://t.me/+1QjkB02uAJliMGQy">Telegram</a>
+<a class="button" herf="https://t.me/+1QjkB02uAJliMGQy">Telegram</a>
