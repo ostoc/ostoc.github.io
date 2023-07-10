@@ -9,44 +9,38 @@ description: 🦄 CSD in Berlin is the most street party, join us on the street 
 
 <img class="filter" src="/images/csd.png"  />
 
-You can buy yourself flowers and take yourself dancing. But why not dance and celebrate the pride together! 👯‍♀️
+You can buy yourself flowers and take yourself dancing. But why not dance and celebrate the pride together! 👯‍♀️ It's the time of the year and we are gathering to show your inner gayness of you. 💅
 
-It's the time of the year and we are gathering to show your inner gayness of you. 💅
+<a class="button" href="https://t.me/+1QjkB02uAJliMGQy">Join the Telegram Group</a>
 
+### Pickup Points
 
+We will follow the same logistic as last year. Feel free to join us at any pick-up point. Looking forward to seeing you 💋
 
-<a class="button" href="https://t.me/+1QjkB02uAJliMGQy">Join the Telegram</a>
+| #   | Location                                                           | Time              |
+| --- | ------------------------------------------------------------------ | ----------------- |
+| 1   | [Uniqlo Postdamer Platz](https://goo.gl/maps/dK3giNtiu65SvzvYA)    | ca. 13:30 - 14:30 |
+| 2   | [Getränke Hoffmann](https://goo.gl/maps/2Adnfq4s3mk55NE79)         | ca. 16:00 - 17:00 |
+| 3   | [Café Viktoria Siegessäule](https://goo.gl/maps/gaFchQCk1K1x3ojv7) | ca. 18:30 - 19:00 |
+| 4   | [T-34 Tank](https://goo.gl/maps/1ifgpVzAPLTyuxrk7)                 | ca. end           |
 
-## Pickup Points
+**1. Uniqlo Postdamer Platz 🛍️**
 
-We will follow the same logistic from last year. Feel free to join us at any pick-up point. Looking forward to seeing you 💋
+Let's kick off our adventure at Uniqlo Postdamer Platz! It's a spot with a lovely park and plenty of shade right in front of the shop. And if you need a quick refreshment, head over to the Mall of Berlin or GoAsia market for some drinks!
 
-| #   | Location                                   | Time              |
-| ------ | ----------------------------------------- | ----------------- |
-| 1  | [Uniqlo Postdamer Platz](https://goo.gl/maps/dK3giNtiu65SvzvYA)              | ca. 13:30 - 14:30 |
-| 2 | [Getränke Hoffmann](https://goo.gl/maps/2Adnfq4s3mk55NE79) | ca. 16:00 - 17:00 |
-| 3 | [Café Viktoria Siegessäule](https://goo.gl/maps/gaFchQCk1K1x3ojv7) | ca. 18:30 - 19:00 |
-| 4 | [T-34 Tank](https://goo.gl/maps/1ifgpVzAPLTyuxrk7) | ca. end |
+**2. Getränke Hoffmann 🍺**
 
-### Uniqlo Postdamer Platz
+Next up, we'll meet at Getränke Hoffmann, the ultimate destination for replenishing your energy with drinks and food. It's a little off the beaten path, making it the perfect spot to meet and enjoy each other's company.
 
-We will gather here first. It has shades and small park in front of the shop. You can also grab drinks in the Mall of Berlin or GoAsia market.
+**3. Café Viktoria Siegessäule ✌️**
 
-### Getränke Hoffmann
+We'll take a moment to rest and gather near Victory Column, snap some fantastic photos, and then contiune dance along with the crowd to the Brandenburger Tor.
 
-This will be the perfect spot for refill your body with more drinks and food. You can get the food from Rewe next door or get more beers from the Getränke shop. It's a little bit out of the main street, so it's a prefect spot to meet.
+**4. T-34 Tank 🎽**
 
-### Café Viktoria Siegessäule
+As the day continues, get ready for an amazing show right in front of the Brandenburger Tor. Get your dancing shoes on because you won't be able to resist moving and grooving to the music. 
 
-We will make a short stop at Siegessäule, take a photo and dance to the crowd.
-
-### T-34 Tank
-
-There will be a show in front Branderburger Tor. Dance your shoes off. Once the show ends, come back to this location, we will go to the after party from U-Bahn Bundestag.
+After the show, let's regroup at the T-34 Tank. From there, we'll head to the after-party from U-Bahn Bundestag. Get ready to keep the cheerful spirit alive as we continue the festivities into the night!
 
 
-
-
-
-
-
+*With Love, from JP*
