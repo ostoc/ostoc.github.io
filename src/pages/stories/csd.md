@@ -19,7 +19,7 @@ We will follow the same logistic as last year. Feel free to join us at any pick-
 
 | #   | Location                                                           | Time              |
 | --- | ------------------------------------------------------------------ | ----------------- |
-| 1   | [Uniqlo Postdamer Platz](https://goo.gl/maps/dK3giNtiu65SvzvYA)    | ca. 13:30 - 14:30 |
+| 1   | [Uniqlo Postdamer Platz](https://goo.gl/maps/dK3giNtiu65SvzvYA)    | ca. 14:00 - 14:30 |
 | 2   | [Getränke Hoffmann](https://goo.gl/maps/2Adnfq4s3mk55NE79)         | ca. 16:00 - 17:00 |
 | 3   | [Café Viktoria Siegessäule](https://goo.gl/maps/gaFchQCk1K1x3ojv7) | ca. 18:30 - 19:00 |
 | 4   | [T-34 Tank](https://goo.gl/maps/1ifgpVzAPLTyuxrk7)                 | ca. end           |
