@@ -38,7 +38,7 @@ body {
 .dark{
     --color-background: rgb(32, 32, 32);
     --color-border: rgb(65, 65, 65);
-    --color-primary: rgb(246, 110, 14);
+    --color-primary: rgb(195, 82, 1);
     --color-text: rgb(230, 229, 229);
     --color-text-secondary: rgb(218, 218, 218);
     --color-text-tertiary: rgb(158, 158, 158);

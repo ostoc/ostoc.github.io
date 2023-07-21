@@ -9,9 +9,21 @@ description: 🦄 CSD in Berlin is the most street party, join us on the street 
 
 <img class="filter" src="/images/csd.png"  />
 
-You can buy yourself flowers and take yourself dancing. But why not dance and celebrate the pride together! 👯‍♀️ It's the time of the year and we are gathering to show your inner gayness of you. 💅
+🌹 You can buy yourself flowers and take yourself dancing 🕺. But why not dance and celebrate the pride together! 👯‍♀️ 
+
+🌈 It's the time of the year and we are gathering to show your inner gayness of you. 💅
 
 <a class="button" href="https://t.me/+1QjkB02uAJliMGQy">Join the Telegram Group</a>
+
+<div class="callout">
+
+More than 50 friends joined the Telegram group, that's amazing! However, it's fun to dance and celebrating all together, but no fun for endless waiting and re-grouping. 
+
+<b><u>We'd suggest you follow your own pace (or music) and use the plan and Telegram to form your own dancing group.</u></b>
+
+Enjoy! It's boring to dance alone! 😘
+
+</div>
 
 ### Pickup Points
 
