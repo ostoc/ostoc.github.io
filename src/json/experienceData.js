@@ -1,7 +1,7 @@
 export default [
     {
         date: "2022 → Current",
-        title: "Product Manager",
+        title: "Senior Product Manager",
         company: 'Delivery Hero SE',
         description: `Building a solution to allow entities across the global market to customize their 
         resolutions for customer contacts and enable self-service.`,
