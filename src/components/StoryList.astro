@@ -2,7 +2,7 @@
 const posts = (await Astro.glob('../pages/stories/*.md')).sort(
   (a, b) =>
     new Date(b.frontmatter.date).valueOf() -
-    new Date(a.frontmatter.date).valueOf()
+    new Date(a.frontmatter.date).valueOf(),
 );
 
 const { postCount } = Astro.props;
@@ -25,7 +25,7 @@ const displayPosts = posts
   ))
 }
 
-<style lang="scss">
+<style is:inline lang="scss">
   .experience {
     display: grid;
     grid-template-columns: 1fr 2fr;
