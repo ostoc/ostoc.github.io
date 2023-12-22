@@ -1,25 +1,4 @@
-@font-face {
-  font-family: "Newsreader";
-  src: url('./fonts/Newsreader.ttf');
-}
-
-@font-face {
-  font-family: "Newsreader";
-  font-style: italic;
-  src: url('./fonts/Newsreader-Italic.ttf');
-}
-
-@font-face {
-  font-family: "Hanken Grotesk";
-  src: url('./fonts/HankenGrotesk.ttf');
-}
-
-@font-face {
-  font-family: "Hanken Grotesk";
-  font-style: italic; 
-  src: url('./fonts/HankenGrotesk-Italic.ttf');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,600;1,400;1,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400;1,6..72,600&display=swap');
 
 :root {
   --color-background: rgb(240, 240, 240);
