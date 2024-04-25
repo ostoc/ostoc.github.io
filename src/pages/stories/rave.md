@@ -6,7 +6,7 @@ description: Summer is coming!!! 🌞 To kick off the party season in Berlin, jo
 draft: true
 ---
 
-# 🪼 B-day Lake Rave, Vol.2 🪩
+# 🪩 B-day Lake Rave, Vol.2 
 
 <img class="filter" src="/images/bparty.jpg"  />
 
@@ -22,7 +22,7 @@ Another year, another birtday rave is happening!
 </a>
 
 
-<a class="button" href="https://t.me/+O8Fu9uLJGKNkZjM0">
+<a class="button" href="https://t.me/+ebDL5UlWtbI2YThi">
   💬 Join the Telegram group
 </a>
 
@@ -32,7 +32,7 @@ Another year, another birtday rave is happening!
 
 *General information*
 
-- 📅 **2023-06-01**, opening hours all day and night.
+- 📅 **2024-06-01**, opening hours all day and night.
 - 📍 **Flughafensee**, accurate location will be update once we are set. 
 
 
