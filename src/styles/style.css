@@ -42,7 +42,7 @@ body {
     --color-text-secondary: rgb(218, 218, 218);
     --color-text-tertiary: rgb(158, 158, 158);
     --color-footernotes-background: rgb(65, 65, 65);
-    --filter-invert: 0.8;
+    --filter-invert: 0.2;
   }
 table {
   font-family: var(--font-family-sans) ;

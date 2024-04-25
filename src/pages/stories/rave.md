@@ -8,7 +8,7 @@ draft: true
 
 # 🪩 B-day Lake Rave, Vol.2 
 
-<img class="filter" src="/images/bparty.jpg"  />
+<img class="filter" src="/images/rave.png"  />
 
 Dear friends,
 
@@ -44,6 +44,6 @@ Another year, another birtday rave is happening!
 
 *Yours,*
 
-**Orestis, Junyu**
+**Orestis & Junyu**
 
 
