@@ -12,9 +12,9 @@ draft: true
 
 Dear friends,
 
-Another year, another birtday rave is happening!
+Another year, another birthday rave is happening!!
 
-**Oh god, please be a nice weather 🌞**
+**🙏 Oh God, please let the weather be nice 🌞**
 
 
 <a class="button" href="/files/event.ics">
