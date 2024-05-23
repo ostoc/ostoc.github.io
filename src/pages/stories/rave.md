@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: 🪩 Birthday Lake Rave, Vol.2
+title: Birthday Lake Rave, Vol.2
 date: 2024-04-25
 description: Summer is coming!!! 🌞 To kick off the party season in Berlin, join our birthday lake rave party.  
 ---
