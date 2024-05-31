@@ -21,7 +21,7 @@ Orestis & Junyu
 
 ---
 
-## Infos
+## Info
 
 *So gald that you will join us for a small party. To make sure you will have a great time with us. Here are some tips for a lake rave.*
 
@@ -64,12 +64,24 @@ You will be in a public space. We’d appreciate it if certain things stay hidde
 
 ---
 
-### Line Ups
+## DJs
 
 Yes! We have DJs for this rave.
 
 During the day, it will be chill house music to set the mood. As the night prolong, the music will get hard. We hope you are enjoin this setup :D
 
 -- TBA --
+
+---
+
+## Memory
+
+Memory can fade away, but photos won't. If you had fun, please share your memory with all of us!
+
+<a class="button" href="https://get.celebrate.app/L9fttzK7fhRv4Gjr7">
+  📷 Share your memory
+</a>
+
+
 
 
