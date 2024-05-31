@@ -55,7 +55,7 @@ We had incidents last year where some items got stolen. When it’s dark, please
 You will be in a public space. We’d appreciate it if certain things stay hidden until darkness. This doesn’t mean you can’t swim naked -- that we encourage it.
 
 <a class="button" href="https://t.me/+ebDL5UlWtbI2YThi">
-  💬 Get the latest update
+  💬 Join Telegram group
 </a>
 
 <a class="button" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
