@@ -25,6 +25,7 @@ Orestis & Junyu
 
 *So gald that you will join us for a small party. To make sure you will have a great time with us. Here are some tips for a lake rave.*
 
+📆 **We will be there from 14:00 till next morning. Music starts at 17:00.**
 
 **💦 Tip 1: Bring enough water for yourself**
 
@@ -61,6 +62,7 @@ You will be in a public space. We’d appreciate it if certain things stay hidde
 <a class="button" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
   🗺️ Get there
 </a>
+
 
 ---
 
