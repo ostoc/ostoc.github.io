@@ -21,6 +21,16 @@ Orestis & Junyu
 
 ---
 
+<a class="button" href="https://t.me/+ebDL5UlWtbI2YThi">
+  💬 Join Telegram group
+</a>
+
+<a class="button" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
+  🗺️ Get there
+</a>
+
+
+
 ## Info
 
 *So gald that you will join us for a small party. To make sure you will have a great time with us. Here are some tips for a lake rave.*
@@ -54,14 +64,6 @@ We had incidents last year where some items got stolen. When it’s dark, please
 **❄️ Tip 7: Have fun but also be respectful**
 
 You will be in a public space. We’d appreciate it if certain things stay hidden until darkness. This doesn’t mean you can’t swim naked -- that we encourage it.
-
-<a class="button" href="https://t.me/+ebDL5UlWtbI2YThi">
-  💬 Join Telegram group
-</a>
-
-<a class="button" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
-  🗺️ Get there
-</a>
 
 
 ---
