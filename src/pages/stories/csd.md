@@ -2,7 +2,7 @@
 layout: ../../layouts/PostLayout.astro
 title: Berlin CSD 2023
 date: 2023-06-20
-description: 🦄 CSD in Berlin is the most street party, join us on the street and pride 🌈
+description: 🦄 CSD in Berlin is the bigest street party, join us on the street and celebrate the pride 🌈
 ---
 
 # 🦄 Berlin CSD 2023 🌈
