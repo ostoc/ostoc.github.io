@@ -1,0 +1,62 @@
+---
+const posts = (await Astro.glob('../pages/knowledges/*.md')).sort(
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf(),
+);
+
+const { postCount } = Astro.props;
+const displayPosts = posts
+  .filter((post) => !post.frontmatter.draft)
+  .slice(0, postCount);
+---
+
+{
+  displayPosts.map((post) => (
+    <div class="experience">
+      <div class="date">{post.frontmatter.date.split('T')[0]}</div>
+      <div class="detail">
+        <a class="title" href={post.url}>
+          {post.frontmatter.title}
+        </a>
+        <div class="description" set:html={post.frontmatter.description} />
+      </div>
+    </div>
+  ))
+}
+
+<style is:inline>
+  .experience {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 1rem;
+  }
+  @media (max-width: 50rem) {
+    .experience {
+      grid-template-columns: 100px 1fr;
+    }
+  }
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    text-decoration: underline;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+    &:hover {
+      color: var(--color-text-secondary);
+    }
+  }
+  .date {
+    margin-bottom: 0.8rem;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-tertiary);
+  }
+  .description {
+    margin-top: 0.8rem;
+    color: var(--color-text-secondary);
+    line-height: 1.2;
+    font-family: var(--font-family-serif);
+  }
+</style>

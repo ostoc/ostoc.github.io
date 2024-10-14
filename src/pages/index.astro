@@ -1,6 +1,7 @@
 ---
 import IndexLayout from '../layouts/Layout.astro';
 import StoryList from '../components/StoryList.astro';
+import KnowledgeList from '../components/KnowledgeList.astro';
 import ExperienceList from '../components/ExperienceList.astro';
 ---
 
@@ -9,7 +10,7 @@ import ExperienceList from '../components/ExperienceList.astro';
     <h1>
       Hi, this is Junyu. I'm a product manager
       <s>designer and engineer</s>
-       who works and lives in Berlin
+      who works and lives in Berlin
       <div class="dot"><a href="/appuroved">.</a></div>
     </h1>
     <h2>
@@ -17,11 +18,14 @@ import ExperienceList from '../components/ExperienceList.astro';
       learning from product development.
     </h2>
   </div>
+  <div class="divider">Experience</div>
+  <ExperienceList />
+  <div class="divider">Knowledges</div>
+  <KnowledgeList postCount="3" />
+  <div class="link"><a href="/knowledges">more</a></div>
   <div class="divider">Stories</div>
   <StoryList postCount="3" />
   <div class="link"><a href="/stories">more</a></div>
-  <div class="divider">Experience</div>
-  <ExperienceList />
 </IndexLayout>
 
 <style is:inline lang="scss">
