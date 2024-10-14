@@ -8,19 +8,20 @@ description: Book notes of The Lean Product Playbook
 
 # Book Notes: The Lean Product Playbook
 
-- Genres: Product
-- Author: Dan Olsen
-- Finished: December 31, 2021
-- Status: Done
+| Title  | The Lean Product Playbook |
+| ------ | ------------------------- |
+| Genres | Product                   |
+| Author | Dan Olsen                 |
+| ISBN   | TBA                       |
 
-## Chapter 1 Achieving Product-Market Fit with the Lean Product Process
+## Chapter 1. Achieving Product-Market Fit with the Lean Product Process
 
 ### What is Product-Market Fit
 
 - Product-market fit means being in a good market with a product that can satisfy that market.
 - a product that creates significant customer value
 
-![Product-Market Fit](/images/kb-1/Screen_Shot_2021-01-02_at_15.06.51.png)
+![Product-Market Fit](/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_15.06.51.png)
 
 ### Steps to Build
 
@@ -31,15 +32,15 @@ description: Book notes of The Lean Product Playbook
 5. Create your MVP prototype
 6. Test your MVP with customers
 
-## Chapter 2 Problem Space vs. Solution Space
+## Chapter 2. Problem Space vs. Solution Space
 
-![Problem-Solution Space](/images/kb-1/Screen_Shot_2021-01-02_at_15.09.29.png)
+![Problem-Solution Space](/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_15.09.29.png)
 
 - Solution space includes any product or representation of a product that is used by or intended for use by a customer.
 - Problem space is where all the customer needs that you’d like your product to deliver live.
 - Customers are much better at giving you feedback in the solution space.
 
-## Chapter 4 Identify Underserved Customer Needs
+## Chapter 4. Identify Underserved Customer Needs
 
 > ⛳ Understand what's important to customer needs
 
@@ -59,7 +60,7 @@ description: Book notes of The Lean Product Playbook
 
 ### **Importance vs. Satisfaction Framework**
 
-![Framework](/images/kb-1/Screen_Shot_2020-12-30_at_14.34.27.png)
+![Framework](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_14.34.27.png)
 
 - Importance is a measure of how important a particular customer need is to a customer.
 - Satisfaction is a measure of how satisfied a customer is with a particular solution that provides a certain customer benefit. It indicates how well that solution meets their needs.
@@ -105,7 +106,7 @@ description: Book notes of The Lean Product Playbook
 
 ### The Kano Model
 
-![/images/kb-1/Screen_Shot_2020-12-30_at_15.25.11.png](/images/kb-1/Screen_Shot_2020-12-30_at_15.25.11.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_15.25.11.png](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_15.25.11.png)
 
 - Performance needs: more is better. As the need is more fully met, the resulting customer satisfaction increases.
 - Must-have needs: don’t create satisfaction by being met. Instead, the need not being met causes customer dissatisfaction
@@ -113,7 +114,7 @@ description: Book notes of The Lean Product Playbook
 - **Needs migrate over time.**
 - Kano model exhibits hierarchy: You have to meet basic needs before you can get credit for performance features. And your product must be competitive on performance features before delighter matter.
 
-## Chapter 5 Define Your Value Proposition
+## Chapter 5. Define Your Value Proposition
 
 
 > ⛳ Decide which customers need the product will address.
@@ -125,15 +126,15 @@ description: Book notes of The Lean Product Playbook
 - Must haves are not the core part of value proposition, since all other products have to have them.
 - Core elements are the performance benefits on which you choose to compete and the unique delighters you plan to provide.
 
-![Example of Completed Product Value Proposition Template](/images/kb-1/Screen_Shot_2020-12-30_at_18.31.28.png)
+![Example of Completed Product Value Proposition Template](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_18.31.28.png)
 
 Example of Completed Product Value Proposition Template
 
-![Example of PVP with Expected Future States](/images/kb-1/Screen_Shot_2020-12-30_at_18.35.57.png)
+![Example of PVP with Expected Future States](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_18.35.57.png)
 
 Example of PVP with Expected Future States
 
-## Chapter 6 Specify Your Minimum Viable Product Feature Set
+## Chapter 6. Specify Your Minimum Viable Product Feature Set
 
 - **Divergent thinking:** trying to generate as many ideas as possible without any judgment or evaluation.
 - **Convergent thinking:** evaluate the ideas and decide which ones you think are the most promising.
@@ -146,7 +147,7 @@ Example of PVP with Expected Future States
 
 ### Visualizing ROI
 
-![/images/kb-1/Screen_Shot_2020-12-30_at_18.51.25.png](/images/kb-1/Screen_Shot_2020-12-30_at_18.51.25.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_18.51.25.png](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_18.51.25.png)
 
 - Prioritize high ROI than lower  (A>B)
 - Prioritize the smaller scope idea higher (C>D)
@@ -156,21 +157,21 @@ Example of PVP with Expected Future States
 
 Score each feature idea high, medium, or low on customer value and on effort.
 
-![/images/kb-1/Screen_Shot_2020-12-30_at_19.00.58.png](/images/kb-1/Screen_Shot_2020-12-30_at_19.00.58.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.00.58.png](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.00.58.png)
 
 ### Deciding on your MVP candidate
 
 Align with product value proposition and choose the highest priority features. 
 
-![/images/kb-1/Screen_Shot_2020-12-30_at_19.07.36.png](/images/kb-1/Screen_Shot_2020-12-30_at_19.07.36.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.07.36.png](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.07.36.png)
 
-![/images/kb-1/Screen_Shot_2020-12-30_at_19.08.32.png](/images/kb-1/Screen_Shot_2020-12-30_at_19.08.32.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.08.32.png](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.08.32.png)
 
-## Chapter 7 Create Your MVP Prototype
+## Chapter 7. Create Your MVP Prototype
 
 ### What is an MVP
 
-![/images/kb-1/Screen_Shot_2020-12-30_at_19.12.32.png](/images/kb-1/Screen_Shot_2020-12-30_at_19.12.32.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.12.32.png](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.12.32.png)
 
 ### Type MVP Tests
 
@@ -181,7 +182,7 @@ Align with product value proposition and choose the highest priority features.
 
 > ⚠️ when you are first starting to develop your product or marketing materials, it is most beneficial to start with qualitative tests to gain some initial understanding
 
-![/images/kb-1/Screen_Shot_2020-12-30_at_19.20.13.png](/images/kb-1/Screen_Shot_2020-12-30_at_19.20.13.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.20.13.png](/images/bn-lean-product-playbook/Screen_Shot_2020-12-30_at_19.20.13.png)
 
 ### Wizard of Oz and Concierge MVPs
 
@@ -194,7 +195,7 @@ Align with product value proposition and choose the highest priority features.
 - The fake door or 404 page test is a good way to validate demand for a new feature that you are considering building.
 - The idea is to include a link or button for the new feature and see what percentage of customers click on it.
 
-## Chapter 08 Apply the Principles of Great UX Design
+## Chapter 8. Apply the Principles of Great UX Design
 
 
 > 📌 An incredible UX can be a strong product differentiator.
@@ -247,7 +248,7 @@ Beyond simply avoiding user frustration, means evoking positive emotions. Produc
 
 The quality of the copy on marketing pages can result in major differences in your conversion rate.
 
-## Chapter 9 Test your MVP with Customers
+## Chapter 9. Test your MVP with Customers
 
 When you are early in defining and validating your MVP, moderated testing is the way to go to ensure you can ask questions and get rich customer feedback.
 
@@ -267,7 +268,7 @@ Feedback on usability has to do with how **easy** it is for customers to underst
 
 Usability issues can prevent you from assessing product-market fit and how great usability does not mean you have strong product-market fit.
 
-## Chapter 10 Iterate and Pivot to Improve Product-Market Fit
+## Chapter 10. Iterate and Pivot to Improve Product-Market Fit
 
 ### The Build Measure Learn Loop
 
@@ -277,9 +278,9 @@ Usability issues can prevent you from assessing product-market fit and how great
 
 Test and improve your problem space thinking by showing customers a product or design artifact in the solution space and soliciting their feedback on it.
 
-![/images/kb-1/Screen_Shot_2021-01-02_at_14.26.19.png](/images/kb-1/Screen_Shot_2021-01-02_at_14.26.19.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_14.26.19.png](/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_14.26.19.png)
 
-## Chapter 12 Build Your Product Using Agile Development
+## Chapter 12. Build Your Product Using Agile Development
 
 ### Cone of uncertainty
 
@@ -307,11 +308,11 @@ In Agile, you should design before you code; you’re just doing so in much smal
 
 **Regression testing:** none of the other existing functionality was inadvertently broken during the process of building the new or improved functionality
 
-## **Chapter 13 Measure Your Key Metrics**
+## **Chapter 13. Measure Your Key Metrics**
 
 [When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/)
 
-![/images/kb-1/Screen_Shot_2021-01-02_at_17.00.22.png](/images/kb-1/Screen_Shot_2021-01-02_at_17.00.22.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_17.00.22.png](/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_17.00.22.png)
 
 ### Analytics Framework
 
@@ -319,7 +320,7 @@ In Agile, you should design before you code; you’re just doing so in much smal
 
 [AARRR Framework- Metrics That Let Your StartUp Sound Like A Pirate Ship](https://medium.com/@ms.mbalke/aarrr-framework-metrics-that-let-your-startup-sound-like-a-pirate-ship-e91d4082994b)
 
-![/images/kb-1/Screen_Shot_2021-01-02_at_17.17.13.png](/images/kb-1/Screen_Shot_2021-01-02_at_17.17.13.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_17.17.13.png](/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_17.17.13.png)
 
 ### Identify the Metric that Matters Most
 
@@ -337,11 +338,11 @@ The retention rate is the ultimate metric of product-market fit.
 - Rate of descent
 - Terminal value: most important parameters, it answers the question, “What percentage of customers who tried your product continue to use it in the long run?”
 
-## Chapter 14 Use Analytics to Optimize Your Product and Business
+## Chapter 14. Use Analytics to Optimize Your Product and Business
 
 ### Lean Product Analytics Process
 
-![/images/kb-1/Screen_Shot_2021-01-02_at_18.23.32.png](/images/kb-1/Screen_Shot_2021-01-02_at_18.23.32.png)
+![/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_18.23.32.png](/images/bn-lean-product-playbook/Screen_Shot_2021-01-02_at_18.23.32.png)
 
 ## 10 best practices for creating successful products
 
