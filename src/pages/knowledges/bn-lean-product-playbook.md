@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: "Book Notes: The Lean Product Playbook"
-date: 2024-10-23
+date: 2024-10-14
 description: Book notes of The Lean Product Playbook
 ---
 
