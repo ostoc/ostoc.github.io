@@ -8,10 +8,10 @@ description: Book notes of Better Small Talk
 # Book Note: Better Small Talk
 
 | Title  | Better Small Talk |
-| ------ | ----------------- |
-| Genres | Self-improvement  |
-| Author | Patrick King      |
-| ISBN   | 9781647431648     |
+| ------ | ----------------: |
+| Genres |  Self-improvement |
+| Author |      Patrick King |
+| ISBN   |     9781647431648 |
 
 ### **CHAPTER 1: UGH, SMALL TALK**
 

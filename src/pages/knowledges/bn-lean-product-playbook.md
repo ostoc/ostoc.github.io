@@ -9,10 +9,10 @@ description: Book notes of The Lean Product Playbook
 # Book Notes: The Lean Product Playbook
 
 | Title  | The Lean Product Playbook |
-| ------ | ------------------------- |
-| Genres | Product                   |
-| Author | Dan Olsen                 |
-| ISBN   | TBA                       |
+| ------ | ------------------------: |
+| Genres |                   Product |
+| Author |                 Dan Olsen |
+| ISBN   |                       TBA |
 
 ## Chapter 1. Achieving Product-Market Fit with the Lean Product Process
 
