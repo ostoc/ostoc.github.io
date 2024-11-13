@@ -1,0 +1,60 @@
+---
+import '../../styles/style.css';
+import Navbar from '../../components/Navbar.astro';
+---
+
+<!doctype html>
+<html lang="en">
+  <Navbar />
+  <body>
+    <main>
+      <h1>Pure Paste</h1>
+      <textarea rows="20" class="text-box" id="text" autofocus></textarea>
+      <a class="button" id="clearButton">Clear</a>
+    </main>
+  </body>
+</html>
+
+<style lang="scss" is:inline>
+  html {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 80%;
+    background: var(--color-background);
+  }
+  .text-container {
+    margin: 0 auto;
+  }
+  .text-box {
+    font-size: var(--font-size-md);
+    font-family: var(--font-family-sans);
+    color: var(--color-text);
+    background: var(--color-border);
+    border-radius: 0.2rem;
+    border: 2px solid var(--color-text-secondary);
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 20rem;
+  }
+  .button {
+    border: 0;
+    font-size: var(--font-size-md);
+    background: transparent;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-primary);
+  }
+</style>
+
+<script>
+  const onClickClear = () => {
+    document.getElementById('text').value = '';
+  };
+  document
+    .getElementById('clearButton')
+    .addEventListener('click', onClickClear);
+</script>
