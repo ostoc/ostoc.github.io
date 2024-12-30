@@ -87,6 +87,7 @@ import Navbar from '../../components/Navbar.astro';
   let textValue = document.getElementById('text') as HTMLInputElement;
   const clearChange = () => {
     textValue.value = '';
+    localStorage.setItem('purePaste', '');
   };
   const saveChange = () => {
     localStorage.setItem('purePaste', textValue.value);
