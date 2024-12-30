@@ -3,14 +3,17 @@ import '../../styles/style.css';
 import Navbar from '../../components/Navbar.astro';
 ---
 
-<!doctype html>
 <html lang="en">
   <Navbar />
   <body>
     <main>
-      <h1>Pure Paste</h1>
+      <div class="header">
+        <h1>Pure Paste</h1>
+        <div class="button" id="saveButton">Save</div>
+        <div class="button" id="clearButton">Clear</div>
+      </div>
+
       <textarea rows="20" class="text-box" id="text" autofocus></textarea>
-      <a class="button" id="clearButton">Clear</a>
     </main>
   </body>
 </html>
@@ -34,27 +37,62 @@ import Navbar from '../../components/Navbar.astro';
     font-family: var(--font-family-sans);
     color: var(--color-text);
     background: var(--color-border);
-    border-radius: 0.2rem;
+    border-radius: 1rem;
     border: 2px solid var(--color-text-secondary);
     padding: 1rem;
     width: 100%;
     box-sizing: border-box;
     min-height: 20rem;
+    &:focus {
+      outline: none;
+
+      border: 2px solid var(--color-primary);
+    }
   }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      display: flex;
+      flex-grow: 1;
+    }
+  }
+
   .button {
+    display: flex;
+    height: 2rem;
+    box-sizing: border-box;
     border: 0;
+    margin-left: 2rem;
     font-size: var(--font-size-md);
     background: transparent;
     color: var(--color-text);
-    border-bottom: 2px solid var(--color-primary);
+    border-bottom: 3px solid var(--color-text);
+    &:hover {
+      cursor: pointer;
+      color: var(--color-primary);
+      border-color: var(--color-primary);
+    }
   }
 </style>
 
 <script>
-  const onClickClear = () => {
-    document.getElementById('text').value = '';
+  let textValue = document.getElementById('text') as HTMLInputElement;
+  const clearChange = () => {
+    textValue.value = '';
   };
-  document
-    .getElementById('clearButton')
-    .addEventListener('click', onClickClear);
+  const saveChange = () => {
+    localStorage.setItem('purePaste', textValue.value);
+  };
+  textValue.addEventListener('change', saveChange);
+
+  document.getElementById('clearButton').addEventListener('click', clearChange);
+  document.getElementById('saveButton').addEventListener('click', saveChange);
+
+  window.onload = () => {
+    textValue.value = localStorage.getItem('purePaste');
+  };
 </script>
