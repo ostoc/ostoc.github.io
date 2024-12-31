@@ -7,13 +7,6 @@
 
 @font-face {
   font-family: 'Hanken Grotesk';
-  font-style: normal;
-  font-weight: 600;
-  src: url(./fonts/HankenGrotesk/HankenGrotesk-Bold.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'Hanken Grotesk';
   font-style: italic;
   font-weight: 400;
   src: url(./fonts/HankenGrotesk/HankenGrotesk-Italic.woff2) format('woff2');
@@ -21,21 +14,44 @@
 
 @font-face {
   font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  src: url(./fonts/HankenGrotesk/HankenGrotesk-SemiBold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
   font-style: italic;
   font-weight: 600;
-  src: url(./fonts/HankenGrotesk/HankenGrotesk-BoldItalic.woff2) format('woff2');
+  src: url(./fonts/HankenGrotesk/HankenGrotesk-SemiBoldItalic.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'Newsreader';
   font-style: normal;
-  src: url(./fonts/Newsreader/Newsreader.woff2) format('woff2');
+  font-weight: 400;
+  src: url(./fonts/Newsreader/Newsreader16pt-Regular.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'Newsreader';
   font-style: italic;
-  src: url(./fonts/Newsreader/Newsreader-Italic.woff2) format('woff2');
+  font-weight: 400;
+  src: url(./fonts/Newsreader/Newsreader16pt-Italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 600;
+  src: url(./fonts/Newsreader/Newsreader16pt-SemiBold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 600;
+  src: url(./fonts/Newsreader/Newsreader16pt-SemiBoldItalic.woff2) format('woff2');
 }
 
 
