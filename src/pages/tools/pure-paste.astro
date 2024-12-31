@@ -23,18 +23,11 @@ import Navbar from '../../components/Navbar.astro';
 </html>
 
 <style lang="scss" is:inline>
-  html {
-    padding: 0;
-    margin: 0;
-  }
   body {
     margin: 0 auto;
     padding: 0;
-    max-width: 80%;
+    max-width: 60rem;
     background: var(--color-background);
-  }
-  .text-container {
-    margin: 0 auto;
   }
   .text-box {
     font-size: var(--font-size-md);
@@ -49,7 +42,6 @@ import Navbar from '../../components/Navbar.astro';
     min-height: 20rem;
     &:focus {
       outline: none;
-
       border: 2px solid var(--color-primary);
     }
   }
@@ -74,7 +66,7 @@ import Navbar from '../../components/Navbar.astro';
     font-size: var(--font-size-md);
     background: transparent;
     color: var(--color-text);
-    border-bottom: 3px solid var(--color-text);
+    border-bottom: 2px solid var(--color-text);
     &:hover {
       cursor: pointer;
       color: var(--color-primary);
