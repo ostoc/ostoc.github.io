@@ -1,4 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,600;1,400;1,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400;1,6..72,600&display=swap');
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/HankenGrotesk/HankenGrotesk-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  src: url(./fonts/HankenGrotesk/HankenGrotesk-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: italic;
+  font-weight: 400;
+  src: url(./fonts/HankenGrotesk/HankenGrotesk-Italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: italic;
+  font-weight: 600;
+  src: url(./fonts/HankenGrotesk/HankenGrotesk-BoldItalic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  src: url(./fonts/Newsreader/Newsreader.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  src: url(./fonts/Newsreader/Newsreader-Italic.woff2) format('woff2');
+}
+
 
 :root {
   --color-background: rgb(240, 240, 240);
@@ -19,6 +58,7 @@
   --font-family-serif: 'Newsreader', serif;
   --filter-invert: 0;
 }
+
 html {
   font-size: 14px;
   font-family: var(--font-family-sans);
