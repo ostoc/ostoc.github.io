@@ -3,46 +3,38 @@ layout: ../../layouts/PostLayout.astro
 title: Birthday Lake Rave, Vol.3
 date: 2025-05-20
 description: 3rd time is a tradition. Let's contiune the lake rave again this year!
-draft: true
 ---
 
 # 🪩 B-day Lake Rave, Vol.3 
 
-<img class="filter" src="/images/rave.png"  />
+<img src="/images/blr-2.png"  />
 
-Dear friends and friend's friends,
+Dear friends and friends of friends,
 
-After 2 years of great together and so much fun. We are excited to announce that we'll see each other again by the lake and create another unforgetable memories.
+After two years of great times and so much fun together, we are excited to share that we'll see each other again by the lake to create more unforgettable memories!
 
-For this year, we'd like to add a little bit theme and fun to the party. 
+For this year, we'd like to add a little theme and extra fun to the party.
 
-🥁🥁🥁 Durm, durm, durm 
+<div class="callout">
 
-During the day, the theme will be Beach Splash 💦 -- Get your Hawaii shirt, swiming trunks and bikini, we'd like to see you getting tanned on the beach, getting wet in the lake while sipping your Apreol Spritz. Music will be chill and relax, great time for outdoor activities and catching up with others.
+💦 During the day, the theme will be **Beach Splash** ! Get out your Hawaiian shirts, swimming trunks, and bikinis. We'd like to see you getting tanned on the beach and getting wet in the lake while sipping your Aperol Spritz. The music will be chill and relaxed – a great time for outdoor activities and catching up with everyone.
 
-🪩🪩🪩 Bling, bling, bling
+🪩 As night falls, let's **Neon** it up! Get out your neon clothes, strips, or skirts. We will also get neon paint and black light. You can shine like a porn star in the dark! From house to techno to trance, we will party till the sun rises or the police come.
 
-During the night, let's Neon 🏮 it up. Getting your neon cloth, strips, or skirts. Shining like a porn star in the dark light. From house to techno, to trance, we will party till the sun rise or police come.
+</div>
+
+See you there!
 
 Yours,
 
 Orestis & Junyu
 
+
 ---
+### Tips
 
-<a class="button" href="https://t.me/+ebDL5UlWtbI2YThi">
-  💬 Join Telegram group
-</a>
+*To make sure you will have a great time with us. Here are some tips for a lake rave.*
 
-<a class="button" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
-  🗺️ Get there
-</a>
-
-
-
-## Info
-
-*So gald that you decided to join us for a ~small~ party. To make sure you will have a great time with us. Here are some tips for a lake rave.*
 
 📆 **We will be there from 14:00 till next morning. Music starts at 17:00.**
 
@@ -74,6 +66,15 @@ We did better last year, nothing got stolen. However, better be safe than sorry.
 
 You will be in a public space. We’d appreciate it if certain things stay hidden until darkness. This doesn’t mean you can’t swim naked -- that we encourage it.
 
+### Additionally,
+
+<a class="button" href="https://t.me/+ebDL5UlWtbI2YThi">
+  💬 Join Telegram group
+</a>
+
+<a class="button" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
+  🗺️ Check how to get there
+</a>
 
 
 
