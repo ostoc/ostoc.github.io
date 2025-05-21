@@ -189,8 +189,6 @@ const { title, frontmatter } = Astro.props;
 
   .callout {
     padding: 0.5rem 1rem;
-    border: 1px solid var(--color-text);
-    border-bottom: 4px solid var(--color-text-secondary);
     font-family: var(--font-family-sans);
     background: var(--color-primary);
     position: relative;
@@ -204,7 +202,7 @@ const { title, frontmatter } = Astro.props;
     right: 0;
     border-style: solid;
     border-width: 0 1rem 1rem 0;
-    border-color: transparent var(--color-text) transparent transparent;
+    border-color: transparent var(--color-background) transparent transparent;
     transform: rotate(0deg);
   }
 </style>

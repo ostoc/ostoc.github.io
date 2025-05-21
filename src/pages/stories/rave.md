@@ -9,19 +9,27 @@ description: 3rd time is a tradition. Let's contiune the lake rave again this ye
 
 <img src="/images/blr-2.png"  />
 
+<a class="button" href="/files/event.ics">
+  📆 Add to your calendar
+</a>
+
 Dear friends and friends of friends,
 
 After two years of great times and so much fun together, we are excited to share that we'll see each other again by the lake to create more unforgettable memories!
 
 For this year, we'd like to add a little theme and extra fun to the party.
 
-<div class="callout">
+<!-- <div class="callout"> -->
+**During the day 💦**
 
-💦 During the day, the theme will be **Beach Splash** ! Get out your Hawaiian shirts, swimming trunks, and bikinis. We'd like to see you getting tanned on the beach and getting wet in the lake while sipping your Aperol Spritz. The music will be chill and relaxed – a great time for outdoor activities and catching up with everyone.
+> The theme will be **Beach Splash** ! Get out your Hawaiian shirts, swimming trunks, and bikinis. We'd like to see you getting tanned on the beach and getting wet in the lake while sipping your Aperol Spritz. The music will be chill and relaxed – a great time for outdoor activities and catching up with everyone.
 
-🪩 As night falls, let's **Neon** it up! Get out your neon clothes, strips, or skirts. We will also get neon paint and black light. You can shine like a porn star in the dark! From house to techno to trance, we will party till the sun rises or the police come.
+**As night falls 🪩**
+> Let's **Neon** it up! Get out your neon clothes, strips, or skirts. We will also get neon paint and black light. You can shine like a porn star in the dark! From house to techno to trance, we will party till the sun rises or the police come.
 
-</div>
+<!-- </div> -->
+
+
 
 See you there!
 
@@ -35,8 +43,7 @@ Orestis & Junyu
 
 *To make sure you will have a great time with us. Here are some tips for a lake rave.*
 
-
-📆 **We will be there from 14:00 till next morning. Music starts at 17:00.**
+📆 **We will be there from June 7th 14:00, till next morning. Music starts at 17:00. Come early, let's play some frisbee 🥏**
 
 **💦 Tip 1: Bring enough water for yourself**
 
