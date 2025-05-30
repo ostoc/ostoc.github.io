@@ -35,7 +35,7 @@ See you there!
 
 Yours,
 
-Orestis & Junyu
+Junyu, Nadya & Orestis
 
 
 ---
@@ -73,13 +73,13 @@ We did better last year, nothing got stolen. However, better be safe than sorry.
 
 You will be in a public space. We’d appreciate it if certain things stay hidden until darkness. This doesn’t mean you can’t swim naked -- that we encourage it.
 
-### Additionally,
+### Additionally
 
 <a class="button" href="https://t.me/+ebDL5UlWtbI2YThi">
   💬 Join Telegram group
 </a>
 
-<a class="button" href="https://goo.gl/maps/Q9H3yRsFSmytxtBv6">
+<a class="button" href="https://maps.app.goo.gl/PAo35CatPgmK91KY7">
   🗺️ Check how to get there
 </a>
 
