@@ -19,7 +19,7 @@ const { title, frontmatter } = Astro.props;
   <body>
     <Navbar type="post" />
     <article>
-      <div class="date">{frontmatter.date.split('T')[0]}</div>
+      <!-- <div class="date">Created: {frontmatter.date.split('T')[0]}</div> -->
       <slot />
     </article>
   </body>
