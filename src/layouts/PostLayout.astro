@@ -131,8 +131,12 @@ const { title, frontmatter } = Astro.props;
     margin-left: -10rem;
   }
 
-  article img.filter {
-    filter: invert(var(--filter-invert));
+  article img.invert {
+    filter: invert(var(--filter-invert-default));
+  }
+
+   article img.contrast {
+    filter: contrast(var(--filter-contrast)) invert(var(--filter-invert-full));
   }
 
   article a {

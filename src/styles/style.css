@@ -17,7 +17,9 @@
   --font-weight-regular: 400;
   --font-family-sans: 'Hanken Grotesk', sans-serif;
   --font-family-serif: 'Newsreader', serif;
-  --filter-invert: 0;
+  --filter-invert-default: 0;
+  --filter-invert-full: 0;
+  --filter-contrast: 100%;
 }
 
 html {
@@ -43,7 +45,9 @@ body {
     --color-text-secondary: rgb(218, 218, 218);
     --color-text-tertiary: rgb(158, 158, 158);
     --color-footernotes-background: rgb(65, 65, 65);
-    --filter-invert: 0.2;
+    --filter-invert-default: 0.2;
+    --filter-invert-full: 1;
+    --filter-contrast: 200%;
   }
 table {
   font-family: var(--font-family-sans) ;

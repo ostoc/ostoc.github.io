@@ -1,23 +1,23 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: Berlin CSD 2023
-date: 2023-06-20
-description: 🦄 CSD in Berlin is the bigest street party, join us on the street and celebrate the pride 🌈
+title: Berlin CSD 2025
+date: 2025-07-12
+draft: true
+description: 🪭 Another year, another CSD in Berlin. Let's party on the street and be proud 🌈
 ---
 
-# 🦄 Berlin CSD 2023 🌈
+# 👗 Berlin CSD 2025 🌈
 
-<img class="filter" src="/images/csd.png"  />
+<img class="contrast" src="/images/csd-25.png"  />
 
-🌹 You can buy yourself flowers and take yourself dancing 🕺. But why not dance and celebrate the pride together! 👯‍♀️ 
 
-🌈 It's the time of the year and we are gathering to show your inner gayness of you. 💅
+3 years in a row, we are back togehter for the pride. 
 
-<a class="button" href="https://t.me/+1QjkB02uAJliMGQy">Join the Telegram Group</a>
+<a class="button" href="https://t.me/+QaTYcHpv3qgwNWM6">💬 Join the Telegram Group</a>
 
 <div class="callout">
 
-More than 50 friends joined the Telegram group, that's amazing! However, it's fun to dance and celebrating all together, but no fun for endless waiting and re-grouping. 
+The group becomes bigger and bigger, that's amazing! However, it's fun to dance and celebrating all together, but no fun for endless waiting and re-grouping. 
 
 <b><u>We'd suggest you follow your own pace (or music) and use the plan and Telegram to form your own dancing group.</u></b>
 
@@ -29,12 +29,12 @@ Enjoy! It's boring to dance alone! 😘
 
 We will follow the same logistic as last year. Feel free to join us at any pick-up point. Looking forward to seeing you 💋
 
-| #   | Location                                                           | Time              |
-| --- | ------------------------------------------------------------------ | ----------------- |
-| 1   | [Uniqlo Postdamer Platz](https://goo.gl/maps/dK3giNtiu65SvzvYA)    | ca. 14:00 - 14:30 |
-| 2   | [Getränke Hoffmann](https://goo.gl/maps/2Adnfq4s3mk55NE79)         | ca. 16:00 - 17:00 |
-| 3   | [Café Viktoria Siegessäule](https://goo.gl/maps/gaFchQCk1K1x3ojv7) | ca. 18:30 - 19:00 |
-| 4   | [T-34 Tank](https://goo.gl/maps/1ifgpVzAPLTyuxrk7)                 | ca. end           |
+| #   | Location                                                        | Time              |
+| --- | --------------------------------------------------------------- | ----------------- |
+| 1   | [Uniqlo Postdamer Platz](https://goo.gl/maps/dK3giNtiu65SvzvYA) | ca. 14:00 - 14:45 |
+| 2   | [Getränke Hoffmann](https://goo.gl/maps/2Adnfq4s3mk55NE79)      | ca. 16:00 - 17:00 |
+| 3   | [Siegessäule](https://maps.app.goo.gl/qHJsUgiqEziPEUkDA)        | ca. 18:30 - 19:00 |
+
 
 **1. Uniqlo Postdamer Platz 🛍️**
 
@@ -44,15 +44,19 @@ Let's kick off our adventure at Uniqlo Postdamer Platz! It's a spot with a lovel
 
 Next up, we'll meet at Getränke Hoffmann, the ultimate destination for replenishing your energy with drinks and food. It's a little off the beaten path, making it the perfect spot to meet and enjoy each other's company.
 
-**3. Café Viktoria Siegessäule ✌️**
+**3. Siegessäule ✌️**
 
 We'll take a moment to rest and gather near Victory Column, snap some fantastic photos, and then contiune dance along with the crowd to the Brandenburger Tor.
 
-**4. T-34 Tank 🎽**
+### Rendezvous
 
-As the day continues, get ready for an amazing show right in front of the Brandenburger Tor. Get your dancing shoes on because you won't be able to resist moving and grooving to the music. 
+We will have a Rendezvous once we enter the final rally area this year. 
 
-After the show, let's regroup at the T-34 Tank. From there, we'll head to the after-party from U-Bahn Bundestag. Get ready to keep the cheerful spirit alive as we continue the festivities into the night!
+It's located in the middle of the Straße Des 17. Juni. We will try to meet there every hour, which means at 20:00, 21:00, and 22:00, you could find our group chilling ~or peeing 🔫~ there.
+
+<a class="button" href="https://maps.app.goo.gl/XWP8HzDDqccTiFso7">📍 Rendezvous</a>
+
+*Hope you enjoy this year's plan 😘*
 
 
 *With Love, from JP*
