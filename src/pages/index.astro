@@ -3,6 +3,7 @@ import IndexLayout from '../layouts/Layout.astro';
 import StoryList from '../components/StoryList.astro';
 import KnowledgeList from '../components/KnowledgeList.astro';
 import ExperienceList from '../components/ExperienceList.astro';
+import TravelMap from '../components/TravelMap.astro';
 ---
 
 <IndexLayout title="This is Junyu">
@@ -26,6 +27,8 @@ import ExperienceList from '../components/ExperienceList.astro';
   <div class="divider">Stories</div>
   <StoryList postCount="3" />
   <div class="link"><a href="/stories">more</a></div>
+  <div class="divider">Travle</div>
+  <TravelMap/>
 </IndexLayout>
 
 <style is:inline lang="scss">
