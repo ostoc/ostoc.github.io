@@ -2,7 +2,7 @@
 layout: ../../layouts/PostLayout.astro
 title: Berlin CSD 2025
 date: 2025-07-13
-description: 🪭 Another year, another CSD in Berlin. Let's party on the street and be proud 🌈
+description: 👗 Three years in a row — we’re back together for Pride again! 🌈
 ---
 
 # 👗 Berlin CSD 2025 🌈
